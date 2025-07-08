@@ -1,5 +1,5 @@
-# UA-recruits-
-Scrapping the web for UA recruit data for data visualization
+# UA-Recruits-WebScrape-GGplot
+Scraping the web for UA recruit data for data visualization
 
 ## Examples of data visualization from 247 sports recruiting data...
 
