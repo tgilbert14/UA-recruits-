@@ -1,7 +1,7 @@
 # UA-recruits-
 Scrapping the web for UA recruit data for data visualization
 
-## Examples of data visualization from scarpping 247 sports for recruiting data...
+## Examples of data visualization from 247 sports recruiting data...
 
 ![Arizona_Football_classRatings2025-07-07](https://github.com/user-attachments/assets/84f43c35-0d71-4917-abd6-60b8aa84f53c)
 
