@@ -15,7 +15,7 @@ app_path<-getwd()
 
 
 #sport <- "basketball"
-sport <- "football"
+#sport <- "football"
 # example of BIG12 schools
 school <- c("arizona","arizona-state","baylor","byu","cincinnati","colorado",
             "houston","iowa-state","kansas","kansas-state","oklahoma-state",
@@ -91,13 +91,33 @@ while (s <= length(school)) {
       
       # clean up unranked players
       player_df <- player_df[player_df$Ranking != 'NA',]
-      # add year
-      player_df$Year <- year[i]
-      # add school[s]
-      player_df$School <- school[s]
-      # add recuit type
-      player_df$Type <- "Commit"
       
+      if (nrow(player_df) == 0) {
+        # in case there was players but they dont have ratings
+        player_df <- data.frame(
+          Name = NA,
+          Location = NA,
+          Height = NA,
+          Weight = 0,
+          Ranking = 0,
+          NationalRank = NA,
+          PositionRank = NA,
+          StateRank = NA,
+          State = NA,
+          Position = NA,
+          Year = year[i],
+          School = school[s],
+          Type = "Transfer",
+          stringsAsFactors = FALSE)
+
+      } else {
+        # add year
+        player_df$Year <- year[i]
+        # add school[s]
+        player_df$School <- school[s]
+        # add recuit type
+        player_df$Type <- "Commit"
+      }
       
       # check for transfers -->
       transfer.meta <- page %>%
@@ -180,15 +200,24 @@ while (s <= length(school)) {
     # If last scrap, create plot
     if (i==length(year)+1) {
       
+      # # Convert Ranking to numeric (if it's a character)
+      # rec_data <- rec_data %>%
+      #   mutate(
+      #     Ranking = as.numeric(Ranking),
+      #     Weight = as.numeric(Weight),
+      #     NationalRank = readr::parse_number(NationalRank),
+      #     PositionRank = readr::parse_number(PositionRank),
+      #     StateRank = readr::parse_number(StateRank)
+      #   )
+      
       # Convert Ranking to numeric (if it's a character)
-
       rec_data <- rec_data %>%
         mutate(
           Ranking = as.numeric(Ranking),
           Weight = as.numeric(Weight),
-          NationalRank = readr::parse_number(NationalRank),
-          PositionRank = readr::parse_number(PositionRank),
-          StateRank = readr::parse_number(StateRank)
+          NationalRank = as.numeric(NationalRank),
+          PositionRank = as.numeric(PositionRank),
+          StateRank = as.numeric(StateRank)
         )
       
       # Sort by Year (ascending), then Ranking (descending), then Name (alphabetically)
@@ -262,7 +291,7 @@ while (s <= length(school)) {
         
         # LOESS smoothed trend line with confidence band
         geom_smooth(method = "loess", se = TRUE, color = "firebrick",
-                    fill = "pink", linetype = "dashed", alpha = 0.1) +
+                    fill = "salmon", linetype = "dashed", alpha = 0.1) +
         
         # Elite tier marker
         geom_hline(yintercept = 90, linetype = "dotted", color = "gray") +
@@ -316,7 +345,7 @@ while (s <= length(school)) {
         theme_minimal()
       # exported as pdf, 5 x 10 or png 1000 width x 500ish
       
-      # Save
+      # Save png plot image
       file_name <- paste0(school[s],"_",sport,"_classRatings_",Sys.Date(),".png")
       file_png <- paste0(app_path,"/plots/",sport,"/",file_name)
       ggsave(filename = file_png, width = 12, height = 8, dpi = 300, bg = "white")
@@ -345,10 +374,7 @@ while (s <= length(school)) {
 }
 
 
-
-
 # Compare schools
-
 files_here <- paste0(app_path,"/recruit_csvs/",sport,"/")
 files <- dir(files_here)
 
@@ -363,12 +389,12 @@ while (x <= length(files)) {
   x=x+1
 }
 
+
+# Plotting Filtered Data -->
 # colors
 colors <- read.csv(paste0(app_path,"/www/teamColors.csv"))
-
 team_colors <- colors %>%
   mutate(TeamColor = str_extract(colors, "#[0-9a-fA-F]{6}"))
-
 color_map <- setNames(team_colors$TeamColor, team_colors$teams)
 
 # filtered data
@@ -378,6 +404,13 @@ filtered_schools <- all_data %>%
 avg_scores_filtered <- filtered_schools %>%
   group_by(Year, School) %>%
   summarize(avg_score = round(mean(Ranking, na.rm = TRUE), 1), .groups = "drop")
+
+avg_scores_filtered <- avg_scores_filtered %>%
+  mutate(
+    Year = as.numeric(Year),
+    avg_score = as.numeric(avg_score)
+  ) %>%
+  filter(!is.na(Year) & !is.na(avg_score))
 
 ggplot(filtered_schools, aes(x = Year, y = Ranking, color = School)) +
   geom_jitter(width = 0.3, alpha = 0.5, size = 2.2) +
@@ -392,33 +425,141 @@ ggplot(filtered_schools, aes(x = Year, y = Ranking, color = School)) +
   ) +
   #scale_color_manual(values = color_map) +
   scale_color_manual(values = c("arizona"="blue", "arizona-state"="maroon")) +
-  geom_text_repel(data = avg_scores_filtered,
-                  aes(x = Year, y = avg_score, label = avg_score, color = School),
-                  size = 3,
-                  fontface = "bold",
-                  max.overlaps = Inf,
-                  show.legend = FALSE)
+  geom_text_repel(
+    data = avg_scores_filtered,
+    aes(x = Year, y = avg_score, label = avg_score, color = School),
+    size = 3,
+    fontface = "bold",
+    max.overlaps = Inf,
+    show.legend = FALSE
+  ) +
+  geom_point(
+    data = avg_scores_filtered,
+    aes(x = Year, y = avg_score, color = School),
+    shape = 21,
+    fill = case_when(
+      avg_scores_filtered$School == "arizona" ~ "cadetblue",
+      avg_scores_filtered$School == "arizona-state" ~ "salmon",
+      TRUE ~ "white"  # fallback if you expand later
+    ),
+    size = 3,
+    stroke = 1.8,
+    show.legend = FALSE
+  )
+# Save png plot image
+file_name <- paste0(sport,"_avgClassRatings_Filtered_",Sys.Date(),".png")
+file_png <- paste0(app_path,"/plots/",sport,"/comparisons/",file_name)
+ggsave(filename = file_png, width = 12, height = 8, dpi = 300, bg = "white")
+# Auto-open the file in your default viewer (Windows)
+shell.exec(file_png)
 
-#View(all_data)
 
-
-## all data
+## Plotting ALL data -->
+# Compute average scores by Year & School
 avg_scores <- all_data %>%
   group_by(Year, School) %>%
-  summarize(avg_score = round(mean(Ranking, na.rm = TRUE), 1), .groups = "drop")
+  summarize(
+    avg_score = round(mean(Ranking, na.rm = TRUE), 1),
+    .groups = "drop"
+  ) %>%
+  filter(!is.na(Year) & !is.na(avg_score))
 
-ggplot(all_data, aes(x = Year, y = Ranking, color = School)) +
-  geom_smooth(method = "loess", se = FALSE, linetype = "solid", size = 1.2) +
-  scale_color_manual(values = color_map) +
-  labs(
-    title = "Recruiting Rankings Comparison",
-    subtitle = paste("Commit & Transfer Scores [", str_to_title(sport), "]"),
-    x = "Class Year",
-    y = "Player Rating (247Sports)",
-    caption = "LOESS trend line per school • Avg. score labels per class"
+avg_scores <- avg_scores %>%
+  mutate(
+    YearDate = as.Date(paste0(Year, "-01-01"))
   )
 
-## push to get via bash
-#git remote add origin https://github.com/tgilbert14/UA-recruits-.git
-#git pull origin main  # or git pull origin master, depending on your default branch
+# Identify first (lowest_year) & last (recent_year) averages
+lowest_year <- avg_scores %>%
+  group_by(School) %>%
+  slice_min(YearDate, n = 1, with_ties = FALSE) %>%
+  ungroup() %>%
+  mutate(label = paste0(str_to_title(School), " (", avg_score, ")"))
 
+recent_year <- avg_scores %>%
+  group_by(School) %>%
+  slice_max(YearDate, n = 1, with_ties = FALSE) %>%
+  ungroup() %>%
+  mutate(label = paste0(str_to_title(School), " (", avg_score, ")"))
+
+# Define your school color map
+team_styles <- colors
+team_colors <- team_styles %>%
+  mutate(TeamColor = str_extract(colors, "#[0-9a-fA-F]{6}"))
+color_map <- setNames(team_colors$TeamColor, tolower(team_colors$teams))
+
+# min avg score for styling
+y_fill <- min(avg_scores$avg_score)-5
+
+# Plot
+ggplot(avg_scores, aes(x = YearDate, y = avg_score, color = School)) +
+  # Light fill under each trend
+  geom_ribbon(
+    aes(ymin = y_fill, ymax = avg_score, fill = School),
+    alpha = 0.15,
+    color = NA
+  ) +
+  # Trend Line
+  geom_line(size = 1) +
+  # First-year point & label
+  geom_point(
+    data = lowest_year,
+    aes(x = YearDate, y = avg_score, fill = School),
+    shape  = 21,
+    size   = 3,
+    stroke = 1.2,
+    show.legend = FALSE
+  ) +
+  geom_text_repel(
+    data = lowest_year,
+    aes(x = YearDate, y = avg_score, label = label),
+    nudge_x      = -1,
+    nudge_y      = -5,
+    fontface     = "italic",
+    size         = 3,
+    show.legend  = FALSE
+  ) +
+  
+  # Last-year point & label
+  geom_point(
+    data = recent_year,
+    aes(x = YearDate, y = avg_score, fill = School),
+    shape  = 21,
+    size   = 3,
+    stroke = 1.2,
+    show.legend = FALSE
+  ) +
+  geom_text_repel(
+    data = recent_year,
+    aes(x = YearDate, y = avg_score, label = label),
+    nudge_x      =  1,
+    nudge_y      = 5,
+    fontface     = "italic",
+    size         = 3,
+    show.legend  = FALSE
+  ) +
+  
+  # Facet per school for readability
+  facet_wrap(~ School, scales = "fixed") +
+  #facet_wrap(~ School, scales = "free_y") +
+  
+  # Custom school colors
+  scale_color_manual(values = color_map) +
+  scale_fill_manual(values  = color_map) +
+  
+  # Styling
+  theme_minimal(base_size = 13) +
+  labs(
+    title    = paste("Average ", str_to_title(sport), "Class Recruiting Rankings by School - BIG 12 edition"),
+    subtitle = paste("Commit & Transfer Scores (", min(avg_scores$Year) ,"-", max(avg_scores$Year) ,")"),
+    x        = "Class Year",
+    y        = "Average Rating Per Year (247Sports)",
+    caption  = "Average commit/transfer ratings per class based on 247sports"
+  )
+
+# Save png plot image
+file_name <- paste0(sport,"_avgClassRatings_ALL_",Sys.Date(),".png")
+file_png <- paste0(app_path,"/plots/",sport,"/comparisons/",file_name)
+ggsave(filename = file_png, width = 12, height = 8, dpi = 300, bg = "white")
+# Auto-open the file in your default viewer (Windows)
+shell.exec(file_png)
