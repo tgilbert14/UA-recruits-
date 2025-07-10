@@ -2,6 +2,8 @@
 
 Scraping the web for Big 12 recruit data for data visualization
 
+![](plots/basketball/comparisons/basketball_avgClassRatings_ALL_2025-07-09.png)
+
 ## Examples of data visualization from 247 sports recruiting data!
 
 ![](plots/football/arizona_football_classRatings_2025-07-09.png)
