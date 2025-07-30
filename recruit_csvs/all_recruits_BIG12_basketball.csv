@@ -1,0 +1,779 @@
+Name,Location,Height,Weight,Ranking,NationalRank,PositionRank,StateRank,State,Position,Year,School,Type,count
+Sam Cunliffe,"Rainier Beach (Seattle, WA)",6-7,180,96,41,7,1,WA,SF,2016,arizona-state,Commit,1
+Jethro Tshisumpa,"Mountain Mission School (Grundy, VA)",6-9,250,89,126,17,9,VA,C,2016,arizona-state,Commit,1
+Romello White,"Wheeler (Marietta, GA)",6-8,215,92,70,18,4,GA,PF,2016,arizona-state,Commit,1
+Kimani Lawrence,"New Hampton School (New Hampton, NH)",6-7,200,95,61,16,2,NH,SF,2017,arizona-state,Commit,1
+Remy Martin,"Sierra Canyon (Chatsworth, CA)",5-11,170,89,142,25,13,CA,PG,2017,arizona-state,Commit,2
+De'Quon Lake,"Iowa Western C.C. (Council Bluffs, IA)",6-10,0,89,14,2,1,IA,C,2017,arizona-state,Commit,2
+Taeshon Cherry,"Foothills Christian (El Cajon, CA)",6-8,210,98,29,7,3,CA,SF,2018,arizona-state,Commit,1
+Luguentz Dort,"Athlete Institute Basketball Academy (Toronto, ON)",6-4,200,97,33,5,1,ON,SG,2018,arizona-state,Commit,1
+Elias Valtonen,"Helsinki Basketball Academy (Finland, FINL)",6-6,195,95,62,12,1,FINL,SG,2018,arizona-state,Commit,1
+Uros Plavsic,"Hamilton Heights Christian Academy (Chattanooga, TN)",7-1,240,91,120,16,2,TN,C,2018,arizona-state,Commit,1
+Jaelen House,"Shadow Mountain (Phoenix, AZ)",6-2,160,91,111,12,4,AZ,PG,2019,arizona-state,Commit,1
+Khalid Thomas,"College of Southern Idaho (Rogerson, ID)",6-9,210,90,2,1,1,ID,PF,2019,arizona-state,Commit,1
+Andre Allen,"Arizona Western College (Yuma, AZ)",6-9,210,89,5,3,1,AZ,PF,2019,arizona-state,Commit,1
+Jalen Graham,"Mountain Pointe (Phoenix, AZ)",6-9,205,88,229,39,7,AZ,C,2019,arizona-state,Commit,2
+Alonzo Verge Jr.,"Moberly Area Community College (Kirksville, MO)",6-3,160,88,8,1,1,MO,CG,2019,arizona-state,Commit,2
+Caleb Christopher,"Hillcrest Prep (Phoenix, AZ)",6-0,180,87,NA,43,17,AZ,CG,2019,arizona-state,Commit,1
+Josh Christopher,"Mayfair (Lakewood, CA)",6-5,215,99,8,2,5,CA,SG,2020,arizona-state,Commit,1
+Marcus Bagley,"Sheldon (Sacramento, CA)",6-7,220,97,31,4,6,CA,SF,2020,arizona-state,Commit,1
+Pavlo Dziuba,"Ukraine (Ukraine, UKRA)",6-8,235,92,117,24,1,UKRA,PF,2020,arizona-state,Commit,1
+Chris Osten,"Lee College (Baytown, TX)",6-9,200,79,22,3,4,TX,C,2020,arizona-state,Commit,1
+Enoch Boakye,"George Harris Prep (Mississauga, ON)",6-10,240,98,29,4,1,ON,C,2021,arizona-state,Commit,1
+William Felton,"Hargrave Military Academy (HS) (Chatham, VA)",6-8,220,89,172,31,7,VA,PF,2021,arizona-state,Commit,2
+Demari Williams,"Dream City Christian (Glendale, AZ)",6-6,210,89,183,38,10,AZ,PG,2021,arizona-state,Commit,2
+Justin Rochelin,"Heritage Christian (Northridge, CA)",6-4,175,88,216,45,20,CA,SF,2021,arizona-state,Commit,1
+Jamiya Neal,"Hillcrest Prep (Phoenix, AZ)",6-6,185,87,246,49,12,AZ,SF,2021,arizona-state,Commit,1
+Austin Nunez,"Wagner HS (San Antonio, TX)",6-2,170,94,71,14,7,TX,PG,2022,arizona-state,Commit,1
+Duke Brennan,"Hillcrest Prep (Phoenix, AZ)",6-10,235,87,222,34,16,AZ,C,2022,arizona-state,Commit,2
+Frankie Collins,NA,6-1,180,89,NA,NA,NA,NA,PG,2022,arizona-state,Transfer,3
+Warren Washington,NA,6-11,210,87,NA,NA,NA,NA,PF,2022,arizona-state,Transfer,2
+Desmond Cambridge,NA,6-4,175,89,NA,NA,NA,NA,SG,2022,arizona-state,Transfer,3
+Devan Cambridge,NA,6-6,190,89,NA,NA,NA,NA,SF,2022,arizona-state,Transfer,3
+Akil Watson,"Roselle Catholic (Roselle, NJ)",6-8,205,90,137,30,6,NJ,PF,2023,arizona-state,Commit,2
+Braelon Green,"SoCal Academy (Castaic, CA)",6-3,175,88,191,30,26,CA,CG,2023,arizona-state,Commit,2
+Brycen Long,NA,6-2,181,86,NA,NA,NA,NA,PG,2023,arizona-state,Transfer,1
+Bryant Selebangue,NA,6-8,227,88,NA,NA,NA,NA,PF,2023,arizona-state,Transfer,2
+Shawn Phillips,NA,6-10,250,89,NA,NA,NA,NA,C,2023,arizona-state,Transfer,2
+Zane Meeks,NA,6-9,220,87,NA,NA,NA,NA,PF,2023,arizona-state,Transfer,1
+Adam Miller,NA,6-3,190,90,NA,NA,NA,NA,PG,2023,arizona-state,Transfer,2
+Kamari Lands,NA,6-8,195,89,NA,NA,NA,NA,SF,2023,arizona-state,Transfer,2
+Jayden Quaintance,"Word Of God Christian Academy (Raleigh, NC)",6-9,230,98,9,2,1,NC,C,2024,arizona-state,Commit,1
+Joson Sanon,"Vermont Academy (Saxtons River, VT)",6-5,188,97,24,5,1,VT,SG,2024,arizona-state,Commit,1
+Amier Ali,"Canyon International Academy (Glendale, AZ)",6-8,175,91,99,21,5,AZ,SF,2024,arizona-state,Commit,2
+Trevor Best,"Word Of God Christian Academy (Raleigh, NC)",6-2,180,86,NA,41,15,NC,CG,2024,arizona-state,Commit,1
+Brandon Gardner,NA,6-8,210,87,NA,NA,NA,NA,PF,2024,arizona-state,Transfer,1
+BJ Freeman,NA,6-6,180,91,NA,NA,NA,NA,PF,2024,arizona-state,Transfer,2
+Alston Mason,NA,6-1,175,90,NA,NA,NA,NA,PG,2024,arizona-state,Transfer,1
+Basheer Jihad,NA,6-9,239,89,NA,NA,NA,NA,C,2024,arizona-state,Transfer,2
+Austin Nunez,NA,6-2,170,89,NA,NA,NA,NA,PG,2024,arizona-state,Transfer,2
+Marcus Jackson,"Word Of God Christian Academy (Raleigh, NC)",6-8,230,91,94,11,5,NC,PF,2025,arizona-state,Commit,2
+Kash Polk,"Argyle (Argyle, TX)",6-8,195,84,NA,70,35,TX,PF,2025,arizona-state,Commit,1
+Anthony Johnson,NA,6-2,175,86,NA,NA,NA,NA,SG,2025,arizona-state,Transfer,1
+Bryce Ford,NA,6-3,190,83,NA,NA,NA,NA,SG,2025,arizona-state,Transfer,2
+Santiago Trouet,NA,6-10,218,83,NA,NA,NA,NA,PF,2025,arizona-state,Transfer,2
+Adante Holiman,NA,6-0,175,87,NA,NA,NA,NA,PG,2025,arizona-state,Transfer,1
+Allen Mukeba,NA,6-6,247,89,NA,NA,NA,NA,SF,2025,arizona-state,Transfer,1
+Marcus Adams Jr.,NA,6-8,200,91,NA,NA,NA,NA,SF,2025,arizona-state,Transfer,2
+Maurice Odum,NA,6-1,160,90,NA,NA,NA,NA,PG,2025,arizona-state,Transfer,1
+Lauri Markkanen,"International (Paterson, NJ)",6-11,225,98,16,5,1,NJ,PF,2016,arizona,Commit,3
+Kobi Simmons,"St. Francis (Alpharetta, GA)",6-5,170,98,29,4,1,GA,CG,2016,arizona,Commit,3
+Rawle Alkins,"Word Of God Christian Academy (Raleigh, NC)",6-5,210,98,30,4,1,NC,SG,2016,arizona,Commit,3
+Keanu Pinder,"Hutchinson C.C. (Hutchinson, KS)",6-8,195,83,30,7,3,KS,PF,2016,arizona,Commit,1
+Deandre Ayton,"Hillcrest Prep (Phoenix, AZ)",7-0,250,100,5,3,2,AZ,C,2017,arizona,Commit,1
+Brandon Randolph,"Westtown School (Norristown, PA)",6-6,183,98,27,5,3,PA,SG,2017,arizona,Commit,2
+Ira Lee,"Prolific Prep (Fort Lauderdale, FL)",6-8,210,97,41,4,7,FL,C,2017,arizona,Commit,1
+Alex Barcello,"Corona del Sol (Tempe, AZ)",6-2,165,90,123,21,2,AZ,PG,2017,arizona,Commit,1
+Emmanuel Akot,"Wasatch Academy (Mount Pleasant, UT)",6-7,190,98,28,7,1,UT,SF,2017,arizona,Commit,2
+Devonaire Doutrive,"Birmingham (Van Nuys, CA)",6-5,175,94,67,15,7,CA,SG,2018,arizona,Commit,1
+Omar Thielemans,"Gistel Oostende (Belgium, BELG)",6-7,200,90,146,36,1,BELG,SF,2018,arizona,Commit,1
+Brandon Williams,"Crespi (Encino, CA)",6-2,185,98,25,7,2,CA,PG,2018,arizona,Commit,1
+Nico Mannion,"Pinnacle (Phoenix, AZ)",6-3,180,99,8,1,1,AZ,CG,2019,arizona,Commit,1
+Josh Green,"IMG Academy (Bradenton, FL)",6-6,190,98,18,6,4,FL,SG,2019,arizona,Commit,1
+Zeke Nnaji,"Hopkins  (Hopkins, MN)",6-11,215,97,40,8,2,MN,PF,2019,arizona,Commit,1
+Christian Koloko,"Sierra Canyon (Chatsworth, CA)",7-0,195,92,96,21,8,CA,C,2019,arizona,Commit,1
+Dalen Terry,"Hillcrest Prep (Phoenix, AZ)",6-6,190,97,46,7,2,AZ,SF,2020,arizona,Commit,1
+Bennedict Mathurin,"NBA Academy Latin America (Mexico, MEXI)",6-6,190,96,53,10,1,MEXI,SF,2020,arizona,Commit,2
+Azuolas Tubelis,"Lithuania (Lithuania, LITH)",6-9,240,96,58,10,1,LITH,PF,2020,arizona,Commit,2
+Kerr Kriisa,"Estonia (Estonia, ESTO)",6-2,170,95,69,12,1,ESTO,PG,2020,arizona,Commit,1
+Daniel Batcho,"France (France, FRAN)",6-10,220,92,118,20,1,FRAN,PF,2020,arizona,Commit,1
+Tibet GÃ¶rener,"Orange Lutheran (Orange, CA)",6-8,195,90,142,30,15,CA,SF,2020,arizona,Commit,1
+Tautvilas Tubelis,"Lithuania (Lithuania, LITH)",6-6,190,79,NA,96,3,LITH,SF,2020,arizona,Commit,1
+Shane Nowell,"Eastside Catholic (Sammamish, WA)",6-5,190,91,102,25,4,WA,SG,2021,arizona,Commit,1
+Adama Bal,"INSEP Paris (Paris, FR)",6-6,180,90,131,9,1,FR,CG,2021,arizona,Commit,1
+Kylan Boswell,"Compass Prep (Chandler, AZ)",6-1,180,98,25,4,2,AZ,PG,2022,arizona,Commit,1
+Henri Veesaar,"Estonia (Estonia, ESTO)",6-10,200,97,36,8,1,ESTO,C,2022,arizona,Commit,1
+Dylan Anderson,"Perry (Gilbert, AZ)",7-0,215,91,95,17,7,AZ,PF,2022,arizona,Commit,2
+Filip Borovicanin,"Serbia (Serbia, SERB)",6-8,180,91,106,25,1,SERB,SF,2022,arizona,Commit,2
+Courtney Ramey,NA,6-3,170,90,NA,NA,NA,NA,PG,2022,arizona,Transfer,1
+KJ Lewis,"Duncanville (Duncanville, TX)",6-4,185,92,85,18,5,TX,SG,2023,arizona,Commit,1
+Paulius Murauskas,"Lithuania (Lithuania, LITH)",6-8,220,90,107,23,1,LITH,PF,2023,arizona,Commit,2
+Motiejus Krivas,"Lithuania (Lithuania, LITH)",7-2,256,90,135,21,2,LITH,C,2023,arizona,Commit,2
+Conrad Martinez,"Spain (Spain, SPAI)",6-1,0,86,NA,43,2,SPAI,PG,2023,arizona,Commit,1
+Caleb Love,NA,6-4,200,94,NA,NA,NA,NA,PG,2023,arizona,Transfer,1
+Keshad Johnson,NA,6-7,200,91,NA,NA,NA,NA,PF,2023,arizona,Transfer,1
+Jaden Bradley,NA,6-3,185,93,NA,NA,NA,NA,PG,2023,arizona,Transfer,1
+Carter Bryant,"Centennial (Corona, CA)",6-8,225,96,28,5,2,CA,SF,2024,arizona,Commit,1
+Emmanuel Stephen,"Dream City Christian (Glendale, AZ)",7-0,215,90,116,22,7,AZ,C,2024,arizona,Commit,1
+Anthony Dell'Orso,NA,6-6,190,93,NA,NA,NA,NA,SF,2024,arizona,Transfer,2
+Tobe Awaka,NA,6-8,250,92,NA,NA,NA,NA,C,2024,arizona,Transfer,1
+Trey Townsend,NA,6-6,228,93,NA,NA,NA,NA,SF,2024,arizona,Transfer,2
+Brayden Burries,"Eleanor Roosevelt (Eastvale, CA)",6-4,200,98,9,2,1,CA,SG,2025,arizona,Commit,2
+Koa Peat,"Perry (Gilbert, AZ)",6-8,235,98,11,4,1,AZ,SF,2025,arizona,Commit,2
+Dwayne Aristode,"Brewster Academy (Wolfeboro, NH)",6-8,215,95,29,8,1,NH,SF,2025,arizona,Commit,1
+Bryce James,"Sierra Canyon (Chatsworth, CA)",6-4,190,86,NA,52,29,CA,SG,2025,arizona,Commit,1
+Evan Nelson,NA,6-2,170,85,NA,NA,NA,NA,PG,2025,arizona,Transfer,1
+Mark Vital,"Washington-Marion (Lake Charles, LA)",6-6,220,93,63,12,2,LA,SF,2016,baylor,Commit,1
+Nuni Omot,"Indian Hills C.C. (Ottumwa, IA)",6-9,205,88,14,2,2,IA,SF,2016,baylor,Commit,1
+Tyson Jolly,"Putnam City West (Oklahoma City, OK)",6-4,200,91,89,13,1,OK,SG,2016,baylor,Commit,1
+Tristan Clark,"Judson (Converse, TX)",6-9,230,91,115,29,6,TX,PF,2017,baylor,Commit,1
+Leonard Allen,"Round Rock (Round Rock, TX)",7-0,200,86,NA,36,30,TX,C,2017,baylor,Commit,1
+Jared Butler,"Riverside Academy (Reserve, LA)",6-2,180,93,88,14,2,LA,SG,2018,baylor,Commit,1
+Matthew Mayer,"Westlake (Austin, TX)",6-7,190,92,92,21,4,TX,SF,2018,baylor,Commit,1
+Flo Thamba,"Mountain Mission School (Grundy, VA)",6-9,224,88,235,32,11,VA,C,2018,baylor,Commit,1
+Jordan Turner,"Sunrise Christian Academy (Bel Aire, KS)",6-6,180,89,177,39,6,KS,SF,2019,baylor,Commit,1
+Dain Dainja,"Park Center (Minneapolis, MN)",6-9,260,93,106,18,3,MN,PF,2020,baylor,Commit,1
+LJ Cryer,"Morton Ranch (Katy, TX)",6-1,180,91,123,23,4,TX,PG,2020,baylor,Commit,1
+Zach Loveday,"Huntington Expression Prep (Huntington, WV)",7-0,200,89,195,38,5,WV,C,2020,baylor,Commit,1
+Kendall Brown,"Sunrise Christian Academy (Bel Aire, KS)",6-8,205,98,18,5,2,KS,SF,2021,baylor,Commit,1
+Langston Love,"Montverde Academy (Montverde, FL)",6-4,190,97,38,10,7,FL,SG,2021,baylor,Commit,1
+Jeremy Sochan,"Orange Academy (Germany, GERM)",6-8,215,95,51,13,1,GERM,SF,2021,baylor,Commit,1
+Keyonte George,"IMG Academy (Bradenton, FL)",6-4,185,99,9,1,3,FL,SG,2022,baylor,Commit,1
+Josh Ojianwuna,"NBA Global Academy (Australia, AUST)",6-10,230,92,88,16,2,AUST,C,2022,baylor,Commit,1
+Caleb Lohner,NA,6-6,200,88,NA,NA,NA,NA,SG,2022,baylor,Transfer,1
+Jalen Bridges,NA,6-7,180,90,NA,NA,NA,NA,SF,2022,baylor,Transfer,1
+Ja'Kobe Walter,"Link Academy (Branson, MO)",6-5,180,98,8,1,1,MO,SG,2023,baylor,Commit,1
+Miro Little,"Sunrise Christian Academy (Bel Aire, KS)",6-4,185,94,41,9,2,KS,PG,2023,baylor,Commit,3
+Yves Missi,"Prolific Prep (Fort Lauderdale, FL)",6-10,210,94,42,6,9,FL,C,2023,baylor,Commit,3
+RayJ Dennis,NA,6-2,170,94,NA,NA,NA,NA,PG,2023,baylor,Transfer,3
+Jayden Nunn,NA,6-4,190,91,NA,NA,NA,NA,PG,2023,baylor,Transfer,1
+VJ Edgecombe,"Long Island Lutheran (Glen Head, NY)",6-5,180,99,5,1,1,NY,SF,2024,baylor,Commit,1
+Rob Wright,"Montverde Academy (Montverde, FL)",6-0,165,97,23,1,6,FL,PG,2024,baylor,Commit,2
+Jason Asemota,"Hillcrest Prep (Phoenix, AZ)",6-8,190,93,73,16,3,AZ,SF,2024,baylor,Commit,1
+Norchad Omier,NA,6-7,240,97,NA,NA,NA,NA,PF,2024,baylor,Transfer,2
+Jeremy Roach,NA,6-2,180,96,NA,NA,NA,NA,PG,2024,baylor,Transfer,1
+Tounde Yessoufou,"St Joseph (Lakewood, CA)",6-6,210,98,14,2,3,CA,PF,2025,baylor,Commit,1
+Andre Iguodala II,"Link Academy (Branson, MO)",6-7,185,87,243,53,8,MO,SF,2025,baylor,Commit,1
+Isaac Williams,NA,6-2,165,86,NA,NA,NA,NA,CG,2025,baylor,Transfer,1
+Daniel Skillings,NA,6-6,210,91,NA,NA,NA,NA,SF,2025,baylor,Transfer,2
+Caden Powell,NA,6-10,220,88,NA,NA,NA,NA,C,2025,baylor,Transfer,1
+Juslin Bodo Bodo,NA,6-11,225,90,NA,NA,NA,NA,C,2025,baylor,Transfer,1
+JJ White,NA,6-2,180,91,NA,NA,NA,NA,PG,2025,baylor,Transfer,2
+Obi Agbim,NA,6-3,180,95,NA,NA,NA,NA,SG,2025,baylor,Transfer,2
+Michael Rataj,NA,6-7,220,95,NA,NA,NA,NA,PF,2025,baylor,Transfer,2
+Gavin Baxter,"Timpview (Provo, UT)",6-6,165,89,143,29,4,UT,SF,2016,byu,Commit,2
+Yoeli Childs,"Bingham (South Jordan, UT)",6-7,220,89,153,34,5,UT,PF,2016,byu,Commit,2
+Connor Harding,"Highland (Pocatello, ID)",6-5,175,87,244,48,1,ID,SF,2016,byu,Commit,1
+Kolby Lee,"Rocky Mountain  (Meridian, ID)",6-9,260,85,NA,38,1,ID,C,2017,byu,Commit,1
+Hunter Erickson,"Timpview (Provo, UT)",6-3,180,88,239,50,2,UT,SG,2018,byu,Commit,1
+Nate Hansen,"Timpview (Provo, UT)",6-3,165,86,NA,65,11,UT,PG,2019,byu,Commit,1
+Bernardo Da Silva,"Wasatch Academy (Mount Pleasant, UT)",6-9,210,88,NA,60,10,UT,SF,2019,byu,Commit,1
+Caleb Lohner,"Wasatch Academy (Mount Pleasant, UT)",6-6,200,89,178,38,2,UT,SG,2020,byu,Commit,2
+Richie Saunders,"Wasatch Academy (Mount Pleasant, UT)",6-5,180,89,243,29,4,UT,SG,2020,byu,Commit,2
+Fousseyni Traore,"Wasatch Academy (Mount Pleasant, UT)",6-7,220,85,NA,51,5,UT,C,2021,byu,Commit,1
+Braeden Moore,"Donda Academy (Simi Valley, CA)",6-8,210,80,NA,78,46,CA,PF,2022,byu,Commit,1
+Egor Demin,"Russia (Russia, RUSS)",6-8,190,98,16,2,2,RUSS,CG,2024,byu,Commit,1
+Kanon Catchings,"Overtime Elite (Atlanta, GA)",6-8,185,94,41,8,3,GA,PF,2024,byu,Commit,1
+Brody Kozlowski,"Corner Canyon (Draper, UT)",6-7,190,88,126,25,3,UT,PF,2024,byu,Commit,2
+Elijah Crawford,"Brewster Academy (Wolfeboro, NH)",6-1,175,88,152,14,3,NH,PG,2024,byu,Commit,2
+Brooks Bahr,"Keller (Keller, TX)",6-4,180,89,123,16,5,TX,CG,2024,byu,Commit,1
+Mawot Mag,NA,6-7,215,90,NA,NA,NA,NA,PF,2024,byu,Transfer,1
+AJ Dybantsa,"Utah Prep (Hurricane, UT)",6-9,210,100,2,1,1,UT,SF,2025,byu,Commit,1
+Xavion Staton,"Utah Prep (Hurricane, UT)",6-11,207,95,37,6,3,UT,C,2025,byu,Commit,2
+Chamberlain Burgess,"Orem (Orem, UT)",6-9,205,90,100,18,5,UT,PF,2025,byu,Commit,1
+Nate Pickens,NA,6-3,175,87,NA,NA,NA,NA,PG,2025,byu,Transfer,2
+Tyler Mrus,NA,6-7,205,87,NA,NA,NA,NA,SF,2025,byu,Transfer,2
+Dominique Diomande,NA,6-8,190,89,NA,NA,NA,NA,SF,2025,byu,Transfer,1
+Kennard Davis,NA,6-6,215,95,NA,NA,NA,NA,SF,2025,byu,Transfer,2
+Rob Wright,NA,6-1,183,98,NA,NA,NA,NA,PG,2025,byu,Transfer,1
+Clayton Hughes,"University School of Jackson (Jackson, TN)",6-5,190,88,209,41,6,TN,SF,2016,central-florida,Commit,1
+Kani Coles,"Pensacola State College (Pensacola, FL)",6-8,0,88,45,11,11,FL,PF,2017,central-florida,Commit,1
+Myles Douglas,"Paul VI Catholic (Fairfax, VA)",6-6,190,87,NA,55,13,VA,SF,2017,central-florida,Commit,2
+Danny Lewis,"Westlake (Atlanta, GA)",6-4,175,87,NA,57,19,GA,SG,2017,central-florida,Commit,2
+Andreas Fuller,"Admiral Farragut Academy (St. Petersburg, FL)",6-6,190,86,NA,85,36,FL,SF,2018,central-florida,Commit,1
+Tony Johnson,"Eufaula  (Eufaula, AL)",6-3,183,88,NA,49,5,AL,PG,2019,central-florida,Commit,1
+Avery Diggs,"Southwest Mississippi C.C. (Summit, MS)",6-10,240,86,34,2,3,MS,C,2019,central-florida,Commit,1
+Moses Bol,"Colby C.C. (Colby, KS)",7-2,240,85,43,4,3,KS,C,2019,central-florida,Commit,1
+Darin Green,"Wharton (Tampa, FL)",6-5,175,84,NA,89,38,FL,SG,2019,central-florida,Commit,1
+Jamille Reynolds,"Lakewood (St. Petersburg, FL)",6-9,230,88,NA,71,28,FL,PF,2020,central-florida,Commit,1
+Darius Johnson,"Episcopal (Alexandria, VA)",6-0,180,89,150,22,4,VA,PG,2021,central-florida,Commit,1
+Taylor Hendricks,"Calvary Christian Academy (Fort Lauderdale, FL)",6-9,205,93,84,13,12,FL,PF,2022,central-florida,Commit,1
+Tyler Hendricks,"Calvary Christian Academy (Fort Lauderdale, FL)",6-4,165,75,NA,72,34,FL,SG,2022,central-florida,Commit,1
+Ithiel Horton,NA,6-3,180,88,NA,NA,NA,NA,PG,2022,central-florida,Transfer,1
+Lahat Thioune,NA,6-11,205,84,NA,NA,NA,NA,PF,2022,central-florida,Transfer,1
+Michael Durr,NA,7-0,250,80,NA,NA,NA,NA,C,2022,central-florida,Transfer,1
+Comeh Emuobor,"Brewster Academy (Wolfeboro, NH)",6-5,190,88,197,43,7,NH,SF,2023,central-florida,Commit,1
+Demarr Langford,NA,6-5,220,87,NA,NA,NA,NA,SG,2023,central-florida,Transfer,1
+Jaykwon Walton,NA,6-6,195,90,NA,NA,NA,NA,CG,2023,central-florida,Transfer,1
+Shemarri Allen,NA,6-4,200,91,NA,NA,NA,NA,SG,2023,central-florida,Transfer,1
+Moustapha Thiam,"DME Academy (Daytona Beach, FL)",7-1,204,94,43,8,9,FL,C,2024,central-florida,Commit,1
+Dior Johnson,"Clarendon College (Clarendon, TX)",6-3,180,92,1,1,1,TX,PG,2024,central-florida,Commit,2
+Jordan Ivy-Curry,NA,6-3,175,87,NA,NA,NA,NA,PG,2024,central-florida,Transfer,1
+Keyshawn Hall,NA,6-7,255,92,NA,NA,NA,NA,PF,2024,central-florida,Transfer,2
+Benny Williams,NA,6-8,180,89,NA,NA,NA,NA,SF,2024,central-florida,Transfer,1
+Mikey Williams,NA,6-3,185,91,NA,NA,NA,NA,CG,2024,central-florida,Transfer,1
+Chris Johnson,NA,6-5,180,89,NA,NA,NA,NA,CG,2025,central-florida,Transfer,2
+Devan Cambridge,NA,6-6,215,89,NA,NA,NA,NA,SF,2025,central-florida,Transfer,2
+Kris Parker,NA,6-9,201,87,NA,NA,NA,NA,SF,2025,central-florida,Transfer,2
+BJ Freeman,NA,6-6,180,91,NA,NA,NA,NA,SF,2025,central-florida,Transfer,1
+Carmelo Pacheco,NA,6-5,190,87,NA,NA,NA,NA,SG,2025,central-florida,Transfer,2
+Jamichael Stillwell,NA,6-8,225,93,NA,NA,NA,NA,PF,2025,central-florida,Transfer,1
+John Bol,NA,7-2,210,90,NA,NA,NA,NA,C,2025,central-florida,Transfer,3
+Themus Fulks,NA,6-2,185,90,NA,NA,NA,NA,PG,2025,central-florida,Transfer,3
+George Beale Jr,NA,6-4,200,85,NA,NA,NA,NA,CG,2025,central-florida,Transfer,1
+Jordan Burks,NA,6-9,205,90,NA,NA,NA,NA,SF,2025,central-florida,Transfer,3
+Riley Kugel,NA,6-5,210,92,NA,NA,NA,NA,SG,2025,central-florida,Transfer,1
+Jarron Cumberland,"Wilmington (Wilmington, OH)",6-4,200,96,42,6,3,OH,SG,2016,cincinnati,Commit,1
+Nysier Brooks,"Life Center Academy (Burlington, NJ)",6-9,200,88,207,27,8,NJ,C,2016,cincinnati,Commit,1
+Keith Williams,"Bishop Loughlin Memorial (Brooklyn, NY)",6-5,190,91,110,21,5,NY,SG,2017,cincinnati,Commit,1
+Mamoudou Diarra,"22 Feet Academy  (Greenville, SC)",6-9,205,87,226,46,5,SC,SF,2017,cincinnati,Commit,1
+Logan Johnson,"St. Francis (Mountain View, CA)",6-2,170,90,143,22,13,CA,PG,2018,cincinnati,Commit,1
+Rashawn Fredericks,"Motlow State Community College (Tullahoma, TN)",6-6,0,89,8,3,1,TN,SG,2018,cincinnati,Commit,1
+LaQuill Hardnett,"Perry Hall (Nottingham, MD)",6-7,195,88,NA,72,9,MD,SF,2018,cincinnati,Commit,1
+Prince Gillam,"Fresno (Fresno, CA)",6-6,220,87,NA,60,38,CA,PF,2018,cincinnati,Commit,1
+Zach Harvey,"Prolific Prep (Fort Lauderdale, FL)",6-4,170,95,70,9,7,FL,SG,2019,cincinnati,Commit,1
+Mika Adams-Woods,"New Hampton School (New Hampton, NH)",6-3,175,88,232,31,7,NH,CG,2019,cincinnati,Commit,2
+Jeremiah Davenport,"Hargrave Military Academy (Chatham, VA)",6-5,205,88,1,1,1,VA,SG,2019,cincinnati,Commit,2
+Tari Eason,"Garfield (Seattle, WA)",6-8,210,90,149,31,2,WA,PF,2020,cincinnati,Commit,1
+Gabe Madsen,"Mayo Senior (Rochester, MN)",6-6,180,89,173,35,7,MN,SF,2020,cincinnati,Commit,3
+Viktor Lakhin,"Russia (Russia, RUSS)",6-9,210,89,201,44,1,RUSS,C,2020,cincinnati,Commit,3
+Mike Saunders,"Wasatch Academy (Mount Pleasant, UT)",6-0,165,89,228,32,3,UT,PG,2020,cincinnati,Commit,3
+Mason Madsen,"Mayo Senior (Rochester, MN)",6-3,175,79,NA,50,8,MN,CG,2020,cincinnati,Commit,1
+Daniel Skillings,"Roman Catholic (Philadelphia, PA)",6-5,180,91,105,12,2,PA,SF,2022,cincinnati,Commit,1
+Josh Reed,"Pace Academy (Atlanta, GA)",6-6,195,88,205,45,7,GA,SF,2022,cincinnati,Commit,1
+Sage Tolentino,"Hamilton (Hamilton, OH)",7-0,210,85,NA,41,7,OH,C,2022,cincinnati,Commit,1
+Kalu Ezikpe,NA,6-8,220,87,NA,NA,NA,NA,PF,2022,cincinnati,Transfer,2
+Landers Nolley,NA,6-7,195,89,NA,NA,NA,NA,SF,2022,cincinnati,Transfer,1
+Robert Phinisee,NA,6-1,190,87,NA,NA,NA,NA,PG,2022,cincinnati,Transfer,2
+Rayvon Griffith,"Compass Prep (Chandler, AZ)",6-5,180,93,64,14,3,AZ,SG,2023,cincinnati,Commit,1
+Jizzle James,"Olympia (Orlando, FL)",6-1,180,92,80,12,7,FL,PG,2023,cincinnati,Commit,1
+Aziz Bandaogo,NA,7-0,215,94,NA,NA,NA,NA,C,2023,cincinnati,Transfer,1
+Simas Lukosius,NA,6-7,225,90,NA,NA,NA,NA,SF,2023,cincinnati,Transfer,1
+CJ Fredrick,NA,6-4,165,89,NA,NA,NA,NA,SG,2023,cincinnati,Transfer,2
+Jamille Reynolds,NA,6-10,285,89,NA,NA,NA,NA,C,2023,cincinnati,Transfer,2
+Tyler Betsey,"St. Thomas More (Oakdale, CT)",6-8,185,93,53,10,2,CT,SF,2024,cincinnati,Commit,1
+Tyler McKinley,"Winton Woods (Cincinnati, OH)",6-8,220,92,89,18,2,OH,PF,2024,cincinnati,Commit,1
+Dillon Mitchell,NA,6-8,205,96,NA,NA,NA,NA,PF,2024,cincinnati,Transfer,1
+Arrinten Page,NA,6-11,220,90,NA,NA,NA,NA,C,2024,cincinnati,Transfer,1
+Connor Hickman,NA,6-2,175,91,NA,NA,NA,NA,CG,2024,cincinnati,Transfer,1
+Shon Abaev,"Calvary Christian Academy (Fort Lauderdale, FL)",6-7,195,96,22,6,6,FL,SF,2025,cincinnati,Commit,1
+Keyshuan Tillery,"New Hampton School (New Hampton, NH)",6-0,184,93,57,8,3,NH,PG,2025,cincinnati,Commit,1
+Baba Miller,NA,6-11,215,92,NA,NA,NA,NA,C,2025,cincinnati,Transfer,2
+Jalen Haynes,NA,6-8,260,88,NA,NA,NA,NA,PF,2025,cincinnati,Transfer,1
+Jalen Celestine,NA,6-7,215,92,NA,NA,NA,NA,SG,2025,cincinnati,Transfer,2
+Moustapha Thiam,NA,7-2,235,97,NA,NA,NA,NA,C,2025,cincinnati,Transfer,1
+Sencire Harris,NA,6-4,174,90,NA,NA,NA,NA,CG,2025,cincinnati,Transfer,1
+Kerr Kriisa,NA,6-3,185,91,NA,NA,NA,NA,PG,2025,cincinnati,Transfer,1
+Lucas Siewert,"Cathedral (Los Angeles, CA)",6-10,230,88,205,50,18,CA,PF,2016,colorado,Commit,1
+Bryce Peters,"Damien (La Verne, CA)",6-4,190,85,NA,20,26,CA,PG,2016,colorado,Commit,1
+D'Shawn Schwartz,"Sand Creek (Colorado Springs, CO)",6-5,222,93,89,24,1,CO,SF,2017,colorado,Commit,1
+Tyler Bey,"Middlebrooks Academy (Los Angeles, CA)",6-8,200,91,117,30,12,CA,PF,2017,colorado,Commit,1
+McKinley Wright,"Champlin Park (Champlin, MN)",6-0,180,89,168,30,6,MN,PG,2017,colorado,Commit,1
+Evan Battey,"Villa Park (Villa Park, CA)",6-6,280,88,194,50,18,CA,PF,2017,colorado,Commit,1
+Daylen Kountz,"East (Denver, CO)",6-4,170,86,NA,78,3,CO,CG,2018,colorado,Commit,1
+Jakub Dombek,"Get Better Academy (Czech Republic, CZEC)",6-9,205,85,NA,NA,NA,CZEC,PF,2018,colorado,Commit,1
+Keeshawn Barthelemy,"Thornlea Secondary School (Thornhill, ON)",6-2,170,91,116,14,2,ON,PG,2019,colorado,Commit,1
+Nique Clifford,"The Vanguard School (Colorado Springs, CO)",6-5,170,92,110,15,1,CO,SG,2020,colorado,Commit,1
+Jabari Walker,"Compass Prep (Chandler, AZ)",6-8,195,90,157,35,9,AZ,PF,2020,colorado,Commit,1
+Luke O'Brien,"Columbine (Littleton, CO)",6-8,200,88,NA,76,4,CO,SG,2020,colorado,Commit,1
+Jason Harris,"Higley (Gilbert, AZ)",6-7,220,89,NA,48,14,AZ,PF,2020,colorado,Commit,1
+Lawson Lovering,"Cheyenne Central (Cheyenne, WY)",7-0,220,95,59,10,1,WY,C,2021,colorado,Commit,1
+K.J. Simpson,"Chaminade (West Hills, CA)",6-2,175,92,95,8,7,CA,CG,2021,colorado,Commit,1
+Quincy Allen,"Maret School (Washington, DC)",6-7,190,91,106,21,1,DC,SF,2021,colorado,Commit,1
+Javon Ruffin,"Isidore Newman (New Orleans, LA)",6-5,195,89,132,35,1,LA,CG,2021,colorado,Commit,1
+Julian Hammond,"Cherry Creek (Englewood, CO)",6-2,180,88,218,24,1,CO,CG,2021,colorado,Commit,1
+Joe Hurlburt,"Enderlin Area (Enderlin, ND)",6-10,220,89,166,27,1,ND,C,2022,colorado,Commit,1
+RJ Smith,"Damien (La Verne, CA)",6-4,180,84,NA,45,33,CA,SG,2022,colorado,Commit,1
+Ethan Wright,NA,6-2,NA,86,NA,NA,NA,NA,SG,2022,colorado,Transfer,1
+Cody Williams,"Perry (Gilbert, AZ)",6-8,180,99,4,2,1,AZ,SF,2023,colorado,Commit,1
+Assane Diop,"Accelerated Schools (Denver, CO)",6-10,210,88,158,26,2,CO,C,2023,colorado,Commit,1
+Courtney Anderson,"Dublin (Dublin, CA)",6-5,180,85,NA,62,45,CA,SG,2023,colorado,Commit,1
+Bangot Dak,"Lincoln Southeast (Lincoln, NE)",6-9,180,84,NA,53,2,NE,PF,2023,colorado,Commit,1
+Eddie Lampkin Jr.,NA,6-10,295,89,NA,NA,NA,NA,C,2023,colorado,Transfer,1
+Andrew Crawford,"ThunderRidge (Littleton, CO)",6-6,175,90,105,14,1,CO,CG,2024,colorado,Commit,1
+Sebastian Rancik,"JSerra Catholic (San Juan Capistrano, CA)",6-9,210,88,148,31,18,CA,PF,2024,colorado,Commit,2
+Felix Kossaras,"Fort Erie International Academy (Fort Erie, ON)",6-5,180,88,175,30,9,ON,SG,2024,colorado,Commit,2
+Andrej Jakimovski,NA,6-7,180,91,NA,NA,NA,NA,SF,2024,colorado,Transfer,1
+Josiah Sanders,"Colorado Prep (Denver, CO)",6-4,185,90,129,17,1,CO,CG,2025,colorado,Commit,3
+Jalin Holland,"Dream City Christian (Glendale, AZ)",6-4,190,90,132,23,5,AZ,SG,2025,colorado,Commit,3
+Tacko Fawaz,"Dream City Christian (Glendale, AZ)",6-10,235,90,150,24,8,AZ,C,2025,colorado,Commit,3
+Isaiah Johnson,"Campbell Hall School (Valley Village, CA)",6-1,170,89,179,20,17,CA,PG,2025,colorado,Commit,1
+Ian Inman,"College Park (The Woodlands, TX)",6-5,180,86,NA,68,29,TX,SF,2025,colorado,Commit,1
+Barrington Hargress,NA,6-0,195,94,NA,NA,NA,NA,PG,2025,colorado,Transfer,1
+Armoni Brooks,"McNeil (Austin, TX)",6-4,180,84,NA,62,20,TX,SG,2016,houston,Commit,1
+Valentine Sangoyomi,"Northern Oklahoma (Tonkawa, OK)",6-11,260,70,NA,NA,NA,OK,C,2016,houston,Commit,1
+Gabe Grant,"Three Rivers C.C. (Poplar Bluff, MO)",6-6,220,89,17,5,1,MO,SF,2017,houston,Commit,1
+Fabian White,"Atascocita (Humble, TX)",6-8,210,87,NA,63,22,TX,PF,2017,houston,Commit,2
+Breaon Brady,"Saddleback College (Mission Viejo, CA)",6-8,230,87,48,12,3,CA,PF,2017,houston,Commit,2
+Mike Adewunmi,"Lake Ridge (Mansfield, TX)",6-4,190,86,NA,21,28,TX,CG,2017,houston,Commit,1
+Nate Hinton,"Gaston Day School Inc (Gastonia, NC)",6-6,198,91,116,23,10,NC,SG,2018,houston,Commit,1
+Cameron Tyson,"Bothell (Bothell, WA)",6-3,185,82,NA,101,8,WA,SG,2018,houston,Commit,1
+Caleb Mills,"Asheville Christian Academy (Swannanoa, NC)",6-3,170,89,150,23,6,NC,PG,2019,houston,Commit,1
+J'Wan Roberts,"Shoemaker (Killeen, TX)",6-7,190,88,225,42,20,TX,PF,2019,houston,Commit,2
+Marcus Sasser,"Red Oak (Red Oak, TX)",6-2,170,88,NA,62,24,TX,SG,2019,houston,Commit,2
+Tramon Mark,"Dickinson (Dickinson, TX)",6-4,180,94,94,18,3,TX,PG,2020,houston,Commit,1
+Kiyron Powell,"Benjamin Bosse (Evansville, IN)",6-9,205,89,187,34,6,IN,C,2020,houston,Commit,2
+Jamal Shead,"Manor (Manor, TX)",6-1,175,89,191,28,5,TX,PG,2020,houston,Commit,2
+Ramon Walker Jr.,"Shadow Creek (Pearland, TX)",6-5,195,90,126,25,8,TX,SF,2021,houston,Commit,1
+Ja'Vier Francis,"Montverde Academy (Montverde, FL)",6-8,200,89,144,20,22,FL,PF,2021,houston,Commit,2
+Emanuel Sharp,"Bishop McLaughlin Catholic (Spring Hill, FL)",6-4,200,89,191,47,26,FL,SG,2021,houston,Commit,2
+Robbie Armbrester,"Wasatch Academy (Mount Pleasant, UT)",6-6,215,87,233,41,3,UT,SF,2021,houston,Commit,1
+Jarace Walker,"IMG Academy (Bradenton, FL)",6-8,220,98,12,2,4,FL,PF,2022,houston,Commit,1
+Terrance Arceneaux,"Beaumont United (Beaumont, TX)",6-7,190,97,31,10,4,TX,SF,2022,houston,Commit,1
+Cedric Lath,"Balboa City School (San Diego, CA)",6-9,235,88,221,33,25,CA,C,2022,houston,Commit,1
+Joseph Tugler,"Cy Falls (Houston, TX)",6-7,215,92,69,9,4,TX,PF,2023,houston,Commit,2
+Jacob McFarland,"Rancho Verde (Moreno Valley, CA)",6-10,205,90,109,15,16,CA,C,2023,houston,Commit,1
+Kordelius Jefferson,"Martin (Arlington, TX)",6-3,180,88,154,18,14,TX,CG,2023,houston,Commit,1
+Damian Dunn,NA,6-5,195,92,NA,NA,NA,NA,SG,2023,houston,Transfer,2
+LJ Cryer,NA,6-1,180,96,NA,NA,NA,NA,PG,2023,houston,Transfer,1
+Mercy Miller,"Notre Dame (Sherman Oaks, CA)",6-4,180,93,56,8,7,CA,CG,2024,houston,Commit,1
+Chase McCarty,"IMG Academy (Bradenton, FL)",6-5,200,91,98,20,13,FL,SF,2024,houston,Commit,1
+Milos Uzan,NA,6-4,193,94,NA,NA,NA,NA,PG,2024,houston,Transfer,1
+Chris Cenac Jr.,"Link Academy (Branson, MO)",6-10,233,99,7,1,1,MO,PF,2025,houston,Commit,1
+Isiah Harwell,"Wasatch Academy (Mount Pleasant, UT)",6-6,200,97,16,4,2,UT,SG,2025,houston,Commit,2
+Kingston Flemings,"Brennan (San Antonio, TX)",6-3,175,97,20,3,1,TX,PG,2025,houston,Commit,2
+Bryce Jackson,"Shadow Creek (Pearland, TX)",6-5,185,88,217,46,19,TX,SG,2025,houston,Commit,1
+Kalifa Sakho,NA,6-11,220,89,NA,NA,NA,NA,PF,2025,houston,Transfer,1
+Donovan Jackson,"Iowa Western C.C. (Council Bluffs, IA)",6-2,175,91,9,1,1,IA,PG,2016,iowa-state,Commit,1
+Cameron Lard,"Natchitoches Central (Natchitoches, LA)",6-9,215,90,122,28,7,LA,PF,2016,iowa-state,Commit,1
+Jakolby Long,"Mustang (Mustang, OK)",6-4,200,89,130,20,2,OK,SG,2016,iowa-state,Commit,2
+Solomon Young,"Sacramento (Sacramento, CA)",6-6,215,89,137,30,9,CA,PF,2016,iowa-state,Commit,2
+Lindell Wigginton,"Oak Hill Academy (Mouth Of Wilson, VA)",6-1,175,96,47,9,2,VA,PG,2017,iowa-state,Commit,1
+Terrence Lewis,"Riverside (Milwaukee, WI)",6-6,195,90,133,31,2,WI,SF,2017,iowa-state,Commit,1
+Talen Horton-Tucker,"Simeon (Chicago, IL)",6-5,210,94,65,14,3,IL,SF,2018,iowa-state,Commit,1
+Zion Griffin,"Hinsdale South (Darien, IL)",6-6,208,91,103,26,4,IL,SF,2018,iowa-state,Commit,1
+Tyrese Haliburton,"North (Oshkosh, WI)",6-5,170,89,177,30,4,WI,PG,2018,iowa-state,Commit,1
+George Conditt,"Corliss (Chicago, IL)",6-10,200,88,NA,47,9,IL,PF,2018,iowa-state,Commit,1
+Tre Jackson,"Blythewood (Blythewood, SC)",6-1,170,89,187,22,3,SC,PG,2019,iowa-state,Commit,2
+Luke Anderson,"Lakeland (Lakeland, FL)",6-8,215,89,219,38,19,FL,PF,2019,iowa-state,Commit,2
+Marcedus Leech,"Poplar Bluff (Poplar Bluff, MO)",6-5,170,88,NA,69,5,MO,SF,2019,iowa-state,Commit,2
+Caleb Grill,"Maize (Maize, KS)",6-3,180,88,NA,46,12,KS,PG,2019,iowa-state,Commit,2
+Xavier Foster,"Oskaloosa (Oskaloosa, IA)",7-0,225,93,103,16,1,IA,PF,2020,iowa-state,Commit,1
+Dudley Blackwell,"Somerset Academy Charter (Pembroke Pines, FL)",6-5,185,89,207,40,15,FL,SF,2020,iowa-state,Commit,2
+Darlinstone Dubar,"Scotland Campus (Scotland, PA)",6-5,180,89,209,42,5,PA,SG,2020,iowa-state,Commit,2
+Jaden Walker,"Discovery (Lawrenceville, GA)",6-5,170,88,NA,51,22,GA,PG,2020,iowa-state,Commit,1
+Tyrese Hunter,"St Catherines (Racine, WI)",6-1,175,96,40,5,2,WI,PG,2021,iowa-state,Commit,1
+Tre King,NA,6-8,225,89,NA,NA,NA,NA,PF,2021,iowa-state,Transfer,1
+Demarion Watson,"Totino-Grace (Minneapolis, MN)",6-6,175,89,173,42,6,MN,SF,2022,iowa-state,Commit,3
+Tamin Lipsey,"Ames (Ames, IA)",6-2,190,89,192,29,2,IA,PG,2022,iowa-state,Commit,3
+Eli King,"Caledonia (Caledonia, MN)",6-3,185,88,203,27,7,MN,PG,2022,iowa-state,Commit,2
+Osun Osunniyi,NA,6-10,185,90,NA,NA,NA,NA,C,2022,iowa-state,Transfer,1
+Jaren Holmes,NA,6-4,210,87,NA,NA,NA,NA,SG,2022,iowa-state,Transfer,1
+Hason Ward,NA,6-9,200,88,NA,NA,NA,NA,PF,2022,iowa-state,Transfer,2
+Jeremiah Williams,NA,6-5,185,89,NA,NA,NA,NA,PG,2022,iowa-state,Transfer,3
+Omaha Biliew,"Waukee (Waukee, IA)",6-8,210,98,13,3,1,IA,PF,2023,iowa-state,Commit,1
+Milan Momcilovic,"Pewaukee (Pewaukee, WI)",6-8,205,94,37,8,1,WI,PF,2023,iowa-state,Commit,1
+JT Rock,"Lincoln (Sioux Falls, SD)",7-1,245,90,100,14,1,SD,C,2023,iowa-state,Commit,1
+Kayden Fish,"Staley (Kansas City, MO)",6-6,205,88,163,39,6,MO,PF,2023,iowa-state,Commit,2
+Jelani Hamilton,"Wheeler (Marietta, GA)",6-6,180,88,195,32,11,GA,SG,2023,iowa-state,Commit,2
+Curtis Jones,NA,6-5,180,89,NA,NA,NA,NA,SG,2023,iowa-state,Transfer,1
+Jackson Paveletzke,NA,6-3,175,91,NA,NA,NA,NA,SG,2023,iowa-state,Transfer,2
+Keshon Gilbert,NA,6-4,190,91,NA,NA,NA,NA,PG,2023,iowa-state,Transfer,2
+Nojus Indrusaitis,"Brewster Academy (Wolfeboro, NH)",6-5,185,91,96,19,2,NH,SG,2024,iowa-state,Commit,1
+Dwayne Pierce,"Christ the King (Middle Village, NY)",6-5,210,88,171,35,7,NY,SF,2024,iowa-state,Commit,2
+Joshua Jefferson,NA,6-7,220,92,NA,NA,NA,NA,PF,2024,iowa-state,Transfer,1
+Brandt Chatfield,NA,6-10,210,88,NA,NA,NA,NA,PF,2024,iowa-state,Transfer,2
+Nate Heise,NA,6-5,205,89,NA,NA,NA,NA,SF,2024,iowa-state,Transfer,1
+Dishon Jackson,NA,6-11,260,90,NA,NA,NA,NA,C,2024,iowa-state,Transfer,1
+Jamarion Batemon,"Milwaukee Academy Of Science (Milwaukee, WI)",6-3,170,94,42,7,1,WI,CG,2025,iowa-state,Commit,1
+Killyan Toure,"Brewster Academy (Wolfeboro, NH)",6-3,190,90,127,21,7,NH,SG,2025,iowa-state,Commit,2
+Xzavion Mitchell,"North (Oshkosh, WI)",6-6,210,90,139,26,4,WI,SF,2025,iowa-state,Commit,2
+Dominick Nelson,NA,6-5,NA,91,NA,NA,NA,NA,SG,2025,iowa-state,Transfer,2
+Blake Buchanan,NA,6-11,215,93,NA,NA,NA,NA,C,2025,iowa-state,Transfer,1
+Eric Mulder,NA,6-8,225,88,NA,NA,NA,NA,PF,2025,iowa-state,Transfer,1
+Mason Williams,NA,6-5,180,91,NA,NA,NA,NA,CG,2025,iowa-state,Transfer,2
+Xavier Sneed,"Hazelwood Central (Florissant, MO)",6-5,190,89,162,32,3,MO,SF,2016,kansas-state,Commit,1
+James Love,"American Heritage (Fort Lauderdale, FL)",6-10,205,82,NA,82,22,FL,PF,2016,kansas-state,Commit,1
+Cartier Diarra,"West Florence (Florence, SC)",6-4,180,87,234,42,4,SC,PG,2016,kansas-state,Commit,1
+Nigel Shadd,"Tri-city Christian Academy (Tempe, AZ)",6-8,230,87,NA,67,5,AZ,PF,2017,kansas-state,Commit,1
+Levi Stockard,"Vashon (St. Louis, MO)",6-8,250,86,NA,85,3,MO,PF,2017,kansas-state,Commit,1
+Shaun Williams,"Hazelwood Central (Florissant, MO)",6-1,170,89,208,34,7,MO,PG,2018,kansas-state,Commit,1
+Austin Trice,"Wabash Valley College (Mount Carmel, IL)",6-7,230,80,14,3,1,IL,PF,2018,kansas-state,Commit,1
+DaJuan Gordon,"Curie Metropolitan (Chicago, IL)",6-3,170,89,193,31,3,IL,SG,2019,kansas-state,Commit,1
+Montavious Murphy,"Concordia Lutheran (Tomball, TX)",6-8,190,87,NA,72,27,TX,C,2019,kansas-state,Commit,2
+Goodnews Kpegeol,"Taylor Made Basketball (Pensacola, FL)",6-6,180,87,NA,70,29,FL,SG,2019,kansas-state,Commit,2
+David Sloan,"John Logan College (Carterville, IL)",6-0,200,80,45,5,3,IL,PG,2019,kansas-state,Commit,2
+Antonio Gordon,"Eisenhower (Lawton, OK)",6-8,195,80,NA,91,4,OK,PF,2019,kansas-state,Commit,2
+Davion Bradford,"Mehlville (St. Louis, MO)",7-0,250,89,197,40,6,MO,PF,2020,kansas-state,Commit,6
+Nijel Pack,"Lawrence Central (Indianapolis, IN)",5-10,165,89,227,31,7,IN,PG,2020,kansas-state,Commit,6
+Selton Miguel,"West Oaks Academy (Orlando, FL)",6-4,195,89,244,30,17,FL,SF,2020,kansas-state,Commit,6
+Luke Kasubke,"Chaminade (St. Louis, MO)",6-5,185,89,246,32,7,MO,SG,2020,kansas-state,Commit,6
+Rudi Williams,"Northeastern Oklahoma A&M (Miami, OK)",6-3,180,89,7,2,1,OK,PG,2020,kansas-state,Commit,6
+Carlton Linguard,"Temple College (Temple, TX)",7-0,200,89,9,1,2,TX,C,2020,kansas-state,Commit,6
+Seryee Lewis,"Compass Prep (Chandler, AZ)",6-9,205,88,NA,57,18,AZ,PF,2020,kansas-state,Commit,1
+Logan Landers,"Cedarburg (Cedarburg, WI)",6-10,230,86,NA,37,6,WI,C,2021,kansas-state,Commit,1
+Taj Manning,"La Lumiere School (La Porte, IN)",6-6,205,89,180,37,6,IN,PF,2022,kansas-state,Commit,2
+Nae'Qwan Tomlin,"Chipola College (Marianna, FL)",6-9,195,89,4,1,1,FL,SF,2022,kansas-state,Commit,2
+Dorian Finister,"Carver (New Orleans, LA)",6-5,180,87,236,33,2,LA,PG,2022,kansas-state,Commit,3
+Keyontae Johnson,NA,6-5,190,88,NA,NA,NA,NA,SF,2022,kansas-state,Transfer,1
+David N'Guessan,NA,6-8,195,87,NA,NA,NA,NA,PF,2022,kansas-state,Transfer,3
+Jerrell Colbert,NA,6-9,210,87,NA,NA,NA,NA,C,2022,kansas-state,Transfer,3
+Dai Dai Ames,"Kenwood Academy (Chicago, IL)",6-1,160,92,83,13,2,IL,PG,2023,kansas-state,Commit,2
+RJ Jones,"Wasatch Academy (Mount Pleasant, UT)",6-3,175,91,98,17,1,UT,CG,2023,kansas-state,Commit,1
+Macaleab Rich,"East St. Louis (East St. Louis, IL)",6-6,210,90,106,24,4,IL,SF,2023,kansas-state,Commit,1
+Arthur Kaluma,NA,6-8,205,94,NA,NA,NA,NA,PF,2023,kansas-state,Transfer,1
+Tylor Perry,NA,5-11,182,92,NA,NA,NA,NA,PG,2023,kansas-state,Transfer,2
+David Castillo,"Sunrise Christian Academy (Bel Aire, KS)",6-1,180,93,55,8,1,KS,PG,2024,kansas-state,Commit,2
+Chimobi Ikegwuruka,"Ellsworth C.C. (Iowa Falls, IA)",6-6,200,85,5,2,1,IA,SF,2024,kansas-state,Commit,1
+Coleman Hawkins,NA,6-10,230,96,NA,NA,NA,NA,PF,2024,kansas-state,Transfer,1
+Ugonna Onyenso,NA,7-0,233,91,NA,NA,NA,NA,C,2024,kansas-state,Transfer,3
+Achor Achor,NA,6-9,225,93,NA,NA,NA,NA,PF,2024,kansas-state,Transfer,2
+Max Jones,NA,6-4,210,88,NA,NA,NA,NA,SG,2024,kansas-state,Transfer,1
+Baye Fall,NA,6-11,200,91,NA,NA,NA,NA,C,2024,kansas-state,Transfer,3
+Brendan Hausen,NA,6-4,180,91,NA,NA,NA,NA,SG,2024,kansas-state,Transfer,3
+CJ Jones,NA,6-5,195,86,NA,NA,NA,NA,CG,2024,kansas-state,Transfer,1
+Dug McDaniel,NA,5-11,175,94,NA,NA,NA,NA,PG,2024,kansas-state,Transfer,1
+Exavier Wilson,"Father Tolton (Columbia, MO)",6-1,165,87,NA,34,10,MO,PG,2025,kansas-state,Commit,2
+Stephen Osei,"Casper College (Casper, WY)",6-10,210,87,NA,NA,NA,WY,C,2025,kansas-state,Commit,2
+PJ Haggerty,NA,6-3,191,99,NA,NA,NA,NA,PG,2025,kansas-state,Transfer,1
+Nate Johnson,NA,6-3,205,95,NA,NA,NA,NA,SG,2025,kansas-state,Transfer,1
+Khamari McGriff,NA,6-9,210,88,NA,NA,NA,NA,PF,2025,kansas-state,Transfer,1
+Abdi Bashir Jr.,NA,6-7,160,94,NA,NA,NA,NA,SG,2025,kansas-state,Transfer,1
+Tyreek Smith,NA,6-8,225,91,NA,NA,NA,NA,PF,2025,kansas-state,Transfer,1
+Josh Jackson,"Justin-Siena (Napa, CA)",6-7,202,102,1,1,1,CA,SF,2016,kansas,Commit,1
+Udoka Azubuike,"The Potter's House Christian Academy (Jacksonville, FL)",6-11,265,97,40,6,4,FL,C,2016,kansas,Commit,1
+Mitch Lightfoot,"Gilbert Christian (Gilbert, AZ)",6-8,200,90,109,25,1,AZ,PF,2016,kansas,Commit,1
+Billy Preston,"Oak Hill Academy (Mouth Of Wilson, VA)",6-10,230,98,22,8,1,VA,PF,2017,kansas,Commit,1
+Silvio De Sousa,"IMG Academy (Bradenton, FL)",6-9,242,97,43,12,5,FL,PF,2017,kansas,Commit,1
+Marcus Garrett,"Skyline (Dallas, TX)",6-6,180,96,51,3,3,TX,PG,2017,kansas,Commit,1
+Quentin Grimes,"College Park (The Woodlands, TX)",6-5,200,99,13,2,1,TX,SG,2018,kansas,Commit,1
+Devon Dotson,"Providence Day School (Charlotte, NC)",6-2,180,98,21,6,2,NC,PG,2018,kansas,Commit,1
+David McCormack,"Oak Hill Academy (Mouth Of Wilson, VA)",6-9,255,97,40,6,2,VA,C,2018,kansas,Commit,1
+Ochai Agbaji,"Oak Park (Kansas City, MO)",6-5.5,195,89,179,42,5,MO,SG,2018,kansas,Commit,1
+Jalen Wilson,"Guyer (Denton, TX)",6-8,215,96,46,14,6,TX,SF,2019,kansas,Commit,2
+Tristan Enaruna,"Wasatch Academy (Mount Pleasant, UT)",6-9,205,96,55,15,1,UT,SF,2019,kansas,Commit,2
+Dajuan Harris,"Rock Bridge (Columbia, MO)",6-2,160,92,102,10,1,MO,CG,2019,kansas,Commit,1
+Christian Braun,"Blue Valley Northwest (Overland Park, KS)",6-5,175,89,145,35,5,KS,SF,2019,kansas,Commit,2
+Issac McBride,"Arkansas Baptist School System (Little Rock, AR)",6-1,170,89,163,24,1,AR,PG,2019,kansas,Commit,2
+Bryce Thompson,"Booker T. Washington (Tulsa, OK)",6-5,175,98,20,4,1,OK,SG,2020,kansas,Commit,1
+Tyon Grant-Foster,"Indian Hills C.C. (Ottumwa, IA)",6-7,190,95,2,2,1,IA,SG,2020,kansas,Commit,1
+Gethro Muscadin,"Aspire Basketball Academy (Louisville, KY)",6-10,215,89,194,37,2,KY,C,2020,kansas,Commit,2
+Latrell Jossell,"Keller Central (Keller, TX)",5-11,160,89,238,42,11,TX,PG,2020,kansas,Commit,2
+Zach Clemence,"Sunrise Christian Academy (Bel Aire, KS)",6-9,210,93,73,18,3,KS,PF,2021,kansas,Commit,2
+KJ Adams,"Westlake (Austin, TX)",6-7,200,93,85,22,5,TX,PF,2021,kansas,Commit,2
+Bobby Pettiford,"South Granville Of Business And Global Commun (Creedmoor, NC)",6-1,175,92,94,14,5,NC,PG,2021,kansas,Commit,1
+Kyle Cuffe Jr.,"Blair Academy (Blairstown, NJ)",6-2,180,91,109,29,3,NJ,CG,2021,kansas,Commit,1
+Gradey Dick,"Sunrise Christian Academy (Bel Aire, KS)",6-7,195,98,21,8,2,KS,SF,2022,kansas,Commit,1
+Ernest Udeh Jr.,"Dr. Phillips (Orlando, FL)",6-10,230,97,32,7,7,FL,C,2022,kansas,Commit,2
+MJ Rice,"Prolific Prep (Fort Lauderdale, FL)",6-5,225,97,37,12,5,FL,SF,2022,kansas,Commit,2
+Zuby Ejiofor,"Garland (Garland, TX)",6-8,215,96,47,5,6,TX,PF,2022,kansas,Commit,1
+Kevin McCullar,NA,6-6,180,93,NA,NA,NA,NA,SG,2022,kansas,Transfer,1
+Elmarko Jackson,"South Kent School (South Kent, CT)",6-3,185,97,20,4,1,CT,CG,2023,kansas,Commit,1
+Johnny Furphy,"Centre of Excellence (Melbourne, VC)",6-7,180,94,35,7,1,VC,SF,2023,kansas,Commit,3
+Marcus Adams Jr.,"Narbonne (Harbor City, CA)",6-8,200,94,51,9,11,CA,SF,2023,kansas,Commit,3
+Jamari McDowell,"Manvel (Manvel, TX)",6-4,180,92,88,14,6,TX,CG,2023,kansas,Commit,1
+Arterio Morris,NA,6-3,190,93,NA,NA,NA,NA,PG,2023,kansas,Transfer,1
+Hunter Dickinson,NA,7-1,260,98,NA,NA,NA,NA,C,2023,kansas,Transfer,1
+Nick Timberlake,NA,6-4,205,94,NA,NA,NA,NA,SG,2023,kansas,Transfer,3
+Flory Bidunga,"Kokomo (Kokomo, IN)",6-8,215,98,14,4,1,IN,C,2024,kansas,Commit,1
+Bryson Tiller,"Overtime Elite (Atlanta, GA)",6-10,240,94,42,9,4,GA,PF,2024,kansas,Commit,1
+Rakease Passmore,"Combine Academy (Charlotte, NC)",6-5,180,93,50,13,5,NC,SG,2024,kansas,Commit,1
+David Coit Jr.,NA,5-11,175,86,NA,NA,NA,NA,PG,2024,kansas,Transfer,1
+Shakeel Moore,NA,6-1,185,89,NA,NA,NA,NA,CG,2024,kansas,Transfer,1
+Rylan Griffen,NA,6-6,190,95,NA,NA,NA,NA,SF,2024,kansas,Transfer,2
+AJ Storr,NA,6-7,180,97,NA,NA,NA,NA,SG,2024,kansas,Transfer,1
+Zeke Mayo,NA,6-4,185,95,NA,NA,NA,NA,PG,2024,kansas,Transfer,2
+Darryn Peterson,"Prolific Prep (Fort Lauderdale, FL)",6-5,195,100,1,1,1,FL,SG,2025,kansas,Commit,1
+Kohl Rosario,"Moravian Prep (Hickory, NC)",6-4,185,92,71,12,4,NC,SG,2025,kansas,Commit,2
+Samis Calderon,"Overtime Elite (Atlanta, GA)",6-8,200,91,83,22,8,GA,SF,2025,kansas,Commit,1
+Corbin Allen,"Oak Park (Kansas City, MO)",6-4,180,84,NA,59,14,MO,SG,2025,kansas,Commit,1
+Paul Mbiya,"ASVEL Basket (ProA U21 League) (France, FRAN)",6-11,240,92,NA,NA,NA,FRAN,C,2025,kansas,Commit,2
+Melvin Council Jr.,NA,6-4,180,93,NA,NA,NA,NA,SG,2025,kansas,Transfer,3
+Tre White,NA,6-7,210,93,NA,NA,NA,NA,SG,2025,kansas,Transfer,3
+Jayden Dawson,NA,6-4,195,93,NA,NA,NA,NA,CG,2025,kansas,Transfer,3
+Sagaba Konate,"Kennedy Catholic (Hermitage, PA)",6-8,220,89,186,45,6,PA,PF,2016,west-virginia,Commit,2
+Maciej Bender,"Mountain Mission School (Grundy, VA)",6-10,235,89,189,46,14,VA,PF,2016,west-virginia,Commit,2
+Chase Harler,"Central Catholic (Wheeling, WV)",6-3,195,86,NA,54,3,WV,SG,2016,west-virginia,Commit,1
+Brandon Knapper,"Hargrave Military Academy (HS) (Chatham, VA)",6-0,160,89,137,23,9,VA,PG,2017,west-virginia,Commit,2
+D'Angelo Hunter,"Navarro College (Corsicana, TX)",6-7,0,89,13,4,4,TX,SF,2017,west-virginia,Commit,2
+Teddy Allen,"Boys Town (Boys Town, NE)",6-5,215,88,195,42,1,NE,SG,2017,west-virginia,Commit,1
+Wesley Harris,"Lawson State C.C. (Birmingham, AL)",6-8,200,87,55,18,1,AL,SF,2017,west-virginia,Commit,1
+Derek Culver,"Brewster Academy (Wolfeboro, NH)",6-8,205,92,96,13,2,NH,PF,2018,west-virginia,Commit,1
+Jordan McCabe,"Kaukauna (Kaukauna, WI)",5-10,155,89,174,29,3,WI,PG,2018,west-virginia,Commit,3
+Trey Doomes,"University School (Fort Lauderdale, FL)",6-3,185,89,178,37,16,FL,SG,2018,west-virginia,Commit,3
+Andrew Gordon,"Northwest Florida State College (Niceville, FL)",6-10,235,89,7,1,2,FL,PF,2018,west-virginia,Commit,3
+Emmitt Matthews Jr.,"Wilson (Tacoma, WA)",6-6,160,88,NA,54,4,WA,SF,2018,west-virginia,Commit,2
+Jermaine Haley,"Odessa C.C. (Odessa, TX)",6-7,185,88,11,2,6,TX,SG,2018,west-virginia,Commit,2
+Oscar Tshiebwe,"Kennedy Catholic (Hermitage, PA)",6-9,250,98,23,5,1,PA,PF,2019,west-virginia,Commit,1
+Jalen Bridges,"Fairmont (Fairmont, WV)",6-7,180,94,84,20,1,WV,SF,2019,west-virginia,Commit,1
+Miles McBride,"Archbishop Moeller (Cincinnati, OH)",6-1,185,89,216,29,6,OH,PG,2019,west-virginia,Commit,1
+Sean McNeil,"Sinclair Community College (Dayton, OH)",6-4,190,87,19,7,1,OH,SG,2019,west-virginia,Commit,2
+Taz Sherman,"Collin County (Plano, TX)",6-4,185,87,26,12,6,TX,SG,2019,west-virginia,Commit,2
+Isaiah Cottrell,"Huntington Expression Prep (Huntington, WV)",6-9,215,95,80,13,2,WV,PF,2020,west-virginia,Commit,1
+Kedrian Johnson,"Temple College (Temple, TX)",6-4,190,88,17,4,3,TX,PG,2020,west-virginia,Commit,1
+Taj Thweatt,"Wildwood Catholic (Wildwood, NJ)",6-6,195,87,NA,78,16,NJ,SF,2020,west-virginia,Commit,1
+Jamel King,"Bella Vista Prep (Scottsdale, AZ)",6-7,180,89,161,33,8,AZ,SF,2021,west-virginia,Commit,2
+Seth Wilson,"Lorain (Lorain, OH)",6-1,185,89,186,21,4,OH,CG,2021,west-virginia,Commit,2
+Kobe Johnson,"McKinley (Canton, OH)",6-3,190,88,211,31,6,OH,PG,2021,west-virginia,Commit,2
+James Okonkwo,"Beckley Prep Academy (Mount Hope, WV)",6-8,210,88,213,38,1,WV,PF,2021,west-virginia,Commit,2
+Josiah Harris,"Richmond Heights (Cleveland, OH)",6-7,210,87,225,50,5,OH,SF,2022,west-virginia,Commit,2
+Josiah Davis,"Teays Valley Christian School (Scott Depot, WV)",6-1,190,87,242,36,3,WV,PG,2022,west-virginia,Commit,2
+Patrick Suemnick,"Triton College (River Grove, IL)",6-8,230,83,10,2,2,IL,PF,2022,west-virginia,Commit,1
+Tre Mitchell,NA,6-9,220,89,NA,NA,NA,NA,C,2022,west-virginia,Transfer,1
+Emmitt Matthews Jr.,NA,6-7,160,88,NA,NA,NA,NA,SF,2022,west-virginia,Transfer,3
+Joe Toussaint,NA,6-0,165,88,NA,NA,NA,NA,PG,2022,west-virginia,Transfer,3
+Erik Stevenson,NA,6-4,180,88,NA,NA,NA,NA,SG,2022,west-virginia,Transfer,3
+Noah Farrakhan,NA,6-2,170,81,NA,NA,NA,NA,PG,2023,west-virginia,Transfer,1
+Akok Akok,NA,6-10,195,89,NA,NA,NA,NA,PF,2023,west-virginia,Transfer,2
+Quinn Slazinski,NA,6-9,230,84,NA,NA,NA,NA,PF,2023,west-virginia,Transfer,1
+RaeQuan Battle,NA,6-5,175,93,NA,NA,NA,NA,SF,2023,west-virginia,Transfer,2
+Jesse Edwards,NA,6-11,205,97,NA,NA,NA,NA,C,2023,west-virginia,Transfer,1
+Kerr Kriisa,NA,6-2,170,93,NA,NA,NA,NA,PG,2023,west-virginia,Transfer,2
+Omar Silverio,NA,6-3,170,89,NA,NA,NA,NA,PG,2023,west-virginia,Transfer,2
+Jose Perez,NA,6-5,195,90,NA,NA,NA,NA,SG,2023,west-virginia,Transfer,1
+Jonathan Powell,"Centerville (Dayton, OH)",6-5,170,88,164,28,7,OH,SG,2024,west-virginia,Commit,2
+KJ Tenner,"Cordova (Cordova, TN)",6-0,160,70,NA,NA,NA,TN,PG,2024,west-virginia,Commit,1
+Jayden Stone,NA,6-3,175,87,NA,NA,NA,NA,SG,2024,west-virginia,Transfer,1
+Joseph Yesufu,NA,6-0,215,86,NA,NA,NA,NA,PG,2024,west-virginia,Transfer,1
+Javon Small,NA,6-3,195,96,NA,NA,NA,NA,PG,2024,west-virginia,Transfer,1
+Eduardo Andre,NA,6-10,220,88,NA,NA,NA,NA,C,2024,west-virginia,Transfer,2
+Toby Okani,NA,6-7,NA,89,NA,NA,NA,NA,SF,2024,west-virginia,Transfer,2
+Amani Hansberry,NA,6-8,225,90,NA,NA,NA,NA,PF,2024,west-virginia,Transfer,1
+Sencire Harris,NA,6-3,160,89,NA,NA,NA,NA,CG,2024,west-virginia,Transfer,2
+Tucker DeVries,NA,6-7,210,97,NA,NA,NA,NA,SF,2024,west-virginia,Transfer,1
+Jayden Forsythe,"Westtown School (Norristown, PA)",6-5,190,90,119,31,2,PA,SF,2025,west-virginia,Commit,2
+DeAndre Thomas,"Allen (Allen, TX)",6-7,210,86,NA,61,27,TX,PF,2025,west-virginia,Commit,2
+Amir Jenkins,"Worcester Academy (Worcester, MA)",6-2,170,91,84,12,2,MA,PG,2025,west-virginia,Commit,2
+Morris Ugusuk,NA,6-4,160,85,NA,NA,NA,NA,CG,2025,west-virginia,Transfer,1
+Treysen Eaglestaff,NA,6-6,190,94,NA,NA,NA,NA,SG,2025,west-virginia,Transfer,1
+Chance Moore,NA,6-6,210,91,NA,NA,NA,NA,SG,2025,west-virginia,Transfer,2
+Jasper Floyd,NA,6-3,195,87,NA,NA,NA,NA,SG,2025,west-virginia,Transfer,1
+Jackson Fields,NA,6-8,210,86,NA,NA,NA,NA,PF,2025,west-virginia,Transfer,2
+Honor Huff,NA,5-10,168,90,NA,NA,NA,NA,PG,2025,west-virginia,Transfer,2
+Harlan Obioha,NA,7-0,280,88,NA,NA,NA,NA,C,2025,west-virginia,Transfer,1
+Brenen Lorient,NA,6-9,215,93,NA,NA,NA,NA,PF,2025,west-virginia,Transfer,1
+Curtis Jones,"Huntington Expression Prep (Huntington, WV)",6-4,170,92,71,10,5,WV,CG,2016,oklahoma-state,Commit,1
+Cameron McGriff,"South Grand Prairie (Grand Prairie, TX)",6-6,215,90,102,21,10,TX,SF,2016,oklahoma-state,Commit,1
+Lindy Waters,"Brewster Academy (Wolfeboro, NH)",6-5,180,89,152,25,3,NH,SG,2016,oklahoma-state,Commit,1
+Thomas Dziagwa,"Tampa Catholic (Tampa, FL)",6-4,180,85,NA,56,17,FL,PG,2016,oklahoma-state,Commit,2
+Brandon Averette,"Richardson (Richardson, TX)",5-11,0,85,NA,64,19,TX,PG,2016,oklahoma-state,Commit,2
+Kentrevious Jones,"Putnam Science Academy (Putnam, CT)",6-10,285,87,NA,27,6,CT,C,2017,oklahoma-state,Commit,1
+Zack Dawson,"South Miami Senior (Miami, FL)",6-4,180,89,155,28,13,FL,PG,2017,oklahoma-state,Commit,1
+Isaac Likekele,"Mansfield Timberview (Arlington, TX)",6-4,205,88,228,38,15,TX,PG,2018,oklahoma-state,Commit,4
+Duncan Demuth,"Seminole (Seminole, FL)",6-8,215,88,NA,45,25,FL,PF,2018,oklahoma-state,Commit,4
+Maurice Calloo,"Huntington Expression Prep (Huntington, WV)",6-8,210,88,NA,51,14,WV,PF,2018,oklahoma-state,Commit,4
+Yor Anei,"Shawnee Mission South (Overland Park, KS)",6-9,205,88,NA,54,3,KS,PF,2018,oklahoma-state,Commit,4
+Marcus Watson,"Buford (Buford, GA)",6-6,205,94,83,12,3,GA,SF,2019,oklahoma-state,Commit,1
+Avery Anderson III,"Northwest (Justin, TX)",6-2,170,91,112,18,10,TX,CG,2019,oklahoma-state,Commit,2
+Chris Harris Jr.,"South Garland (Garland, TX)",6-3,195,91,119,18,11,TX,SG,2019,oklahoma-state,Commit,2
+Kalib Boone,"Memorial (Tulsa, OK)",6-8,190,89,158,35,2,OK,C,2019,oklahoma-state,Commit,1
+Keylan Boone,"Memorial (Tulsa, OK)",6-6,175,88,NA,52,3,OK,PF,2019,oklahoma-state,Commit,1
+Cade Cunningham,"Montverde Academy (Montverde, FL)",6-6,215,100,1,1,1,FL,SG,2020,oklahoma-state,Commit,1
+Matthew-Alexander Moncrieffe,"Orangeville Prep (Mono, ON)",6-7,195,96,64,11,1,ON,SF,2020,oklahoma-state,Commit,1
+Rondel Walker,"Putnam City West (Oklahoma City, OK)",6-2,160,90,138,18,3,OK,PG,2020,oklahoma-state,Commit,1
+Donovan Williams,"North Star (Lincoln, NE)",6-5,190,89,NA,36,2,NE,SG,2020,oklahoma-state,Commit,1
+Montreal Pena,"Martin (Arlington, TX)",6-9,200,88,NA,60,15,TX,PF,2020,oklahoma-state,Commit,1
+Quion Williams,"Jonesboro (Jonesboro, AR)",6-4,185,90,124,28,4,AR,SF,2022,oklahoma-state,Commit,1
+John-Michael Wright,NA,6-0,186,87,NA,NA,NA,NA,PG,2022,oklahoma-state,Transfer,1
+Eric Dailey Jr.,"IMG Academy (Bradenton, FL)",6-7,215,94,38,9,3,FL,PF,2023,oklahoma-state,Commit,2
+Brandon Garrison,"Del City (Del City, OK)",6-9,205,94,45,7,1,OK,C,2023,oklahoma-state,Commit,2
+Justin McBride,"Plano (Plano, TX)",6-7,210,90,134,29,11,TX,PF,2023,oklahoma-state,Commit,2
+Jamyron Keller,"Ellison (Killeen, TX)",6-1,190,89,147,17,12,TX,CG,2023,oklahoma-state,Commit,1
+Connor Dow,"Broken Arrow (Broken Arrow, OK)",6-5,180,83,NA,74,3,OK,SF,2023,oklahoma-state,Commit,2
+Isaiah Miranda,NA,7-0,200,91,NA,NA,NA,NA,C,2023,oklahoma-state,Transfer,1
+Jarius Hicklen,NA,6-3,170,83,NA,NA,NA,NA,SG,2023,oklahoma-state,Transfer,2
+Mike Marsh,NA,6-11,240,84,NA,NA,NA,NA,C,2023,oklahoma-state,Transfer,1
+Javon Small,NA,6-2,180,90,NA,NA,NA,NA,PG,2023,oklahoma-state,Transfer,2
+Abou Ousmane,NA,6-10,244,88,NA,NA,NA,NA,PF,2024,oklahoma-state,Transfer,1
+Marchelus Avery,NA,6-5,200,87,NA,NA,NA,NA,SF,2024,oklahoma-state,Transfer,1
+Arturo Dean,NA,5-9,145,90,NA,NA,NA,NA,PG,2024,oklahoma-state,Transfer,1
+Davonte Davis,NA,6-4,185,89,NA,NA,NA,NA,CG,2024,oklahoma-state,Transfer,2
+Robert Jennings,NA,6-7,220,89,NA,NA,NA,NA,PF,2024,oklahoma-state,Transfer,2
+Ryan Crotty,"Miller School (Charlottesville, VA)",6-5,180,91,82,21,4,VA,SG,2025,oklahoma-state,Commit,1
+Ben Ahmed,"Putnam Science Academy (Putnam, CT)",6-9,300,90,108,16,2,CT,C,2025,oklahoma-state,Commit,2
+Mekhi Ragland,"Sunrise Christian Academy (Bel Aire, KS)",6-10,250,85,NA,50,4,KS,C,2025,oklahoma-state,Commit,1
+Jaylen Curry,NA,6-0,155,87,NA,NA,NA,NA,PG,2025,oklahoma-state,Transfer,1
+Christian Coleman,NA,6-8,205,90,NA,NA,NA,NA,PF,2025,oklahoma-state,Transfer,2
+Parsa Fallah,NA,6-9,260,88,NA,NA,NA,NA,C,2025,oklahoma-state,Transfer,1
+Vyctorius Miller,NA,6-5,185,93,NA,NA,NA,NA,SG,2025,oklahoma-state,Transfer,2
+Anthony Roy,NA,6-5,200,92,NA,NA,NA,NA,SG,2025,oklahoma-state,Transfer,1
+Isaiah Coleman,NA,6-5,191,93,NA,NA,NA,NA,SG,2025,oklahoma-state,Transfer,2
+Kanye Clary,NA,5-11,190,89,NA,NA,NA,NA,PG,2025,oklahoma-state,Transfer,1
+Jaylen Fisher,"Bolton (Arlington, TN)",6-2,170,91,90,17,2,TN,PG,2016,tcu,Commit,1
+Josh Parrish,"Seguin (Arlington, TX)",6-5,190,87,247,50,17,TX,SF,2016,tcu,Commit,1
+Kouat Noi,"Montverde Academy (Montverde, FL)",6-7,205,86,NA,64,15,FL,PF,2016,tcu,Commit,1
+Kevin Samuel,"St Thomas Episcopal School (Houston, TX)",6-10,220,90,120,13,7,TX,C,2017,tcu,Commit,2
+Shawn Olden,"New Mexico J.C. (Hobbs, NM)",6-3,180,90,11,2,1,NM,CG,2017,tcu,Commit,2
+R.J. Nembhard,"Keller (Keller, TX)",6-4,175,89,163,34,11,TX,SG,2017,tcu,Commit,2
+Lat Mayen,"Australian Institute of Sport (Canberra, SW)",6-8,195,87,NA,76,1,SW,PF,2017,tcu,Commit,2
+Andre Pierce,"Lee College (Baytown, TX)",6-10,215,89,34,8,11,TX,PF,2017,tcu,Commit,2
+Andre Rafus,"Academy For College And Career Exploration (Baltimore, MD)",6-9,200,87,NA,51,6,MD,SF,2017,tcu,Commit,2
+Kaden Archie,"Midlothian (Midlothian, TX)",6-6,200,92,99,22,5,TX,SF,2018,tcu,Commit,1
+Yuat Alok,"Chipola College (Marianna, FL)",6-10,210,91,3,1,1,FL,C,2018,tcu,Commit,1
+Kendric Davis,"Sam Houston (Houston, TX)",5-11,165,89,161,26,9,TX,PG,2018,tcu,Commit,1
+Russell Barlow,"Berkner (Richardson, TX)",6-9,215,88,245,34,17,TX,C,2018,tcu,Commit,1
+P.J. Fuller,"Findlay Prep (Henderson, NV)",6-4,170,94,85,13,1,NV,SG,2019,tcu,Commit,1
+Francisco Farabello,"NBA Global Academy (Australia, AUST)",6-1,165,91,113,13,2,AUST,PG,2019,tcu,Commit,1
+Diante Smith,"Choctawhatchee (Fort Walton Beach, FL)",6-6,195,90,131,30,16,FL,SF,2019,tcu,Commit,1
+Taryn Todd,"Findlay Prep (Henderson, NV)",6-2,170,89,223,34,4,NV,SG,2019,tcu,Commit,1
+Mickey Pearson,"Hargrave Military Academy (HS) (Chatham, VA)",6-7,180,88,NA,80,16,VA,SF,2019,tcu,Commit,1
+Terren Frank,"Sierra Canyon (Chatsworth, CA)",6-7,200,89,184,43,23,CA,PF,2020,tcu,Commit,2
+Mike Miles,"Lancaster (Lancaster, TX)",6-2,170,89,229,33,9,TX,PG,2020,tcu,Commit,2
+Eddie Lampkin Jr.,"Morton Ranch (Katy, TX)",6-10,295,88,NA,58,16,TX,PF,2020,tcu,Commit,1
+Souleymane Doumbia,"Navarro College (Corsicana, TX)",7-0,220,88,7,3,2,TX,C,2021,tcu,Commit,1
+PJ Haggerty,"Crosby (Crosby, TX)",6-3,170,90,126,18,12,TX,SG,2022,tcu,Commit,1
+Rondel Walker,NA,6-2,160,89,NA,NA,NA,NA,PG,2022,tcu,Transfer,1
+Jace Posey,"Strake Jesuit College Prep (Houston, TX)",6-4,175,91,96,19,8,TX,SG,2023,tcu,Commit,2
+Isaiah Manning,"Mansfield Legacy (Mansfield, TX)",6-7,200,87,247,49,20,TX,PF,2023,tcu,Commit,2
+Essam Mostafa,NA,6-9,250,87,NA,NA,NA,NA,PF,2023,tcu,Transfer,2
+Ernest Udeh Jr.,NA,6-10,230,95,NA,NA,NA,NA,C,2023,tcu,Transfer,1
+Avery Anderson III,NA,6-2,170,91,NA,NA,NA,NA,PG,2023,tcu,Transfer,2
+Trevian Tennyson,NA,6-4,180,86,NA,NA,NA,NA,SG,2023,tcu,Transfer,1
+Jameer Nelson Jr.,NA,6-1,200,96,NA,NA,NA,NA,CG,2023,tcu,Transfer,1
+Micah Robinson,"Oak Hill Academy (Mouth Of Wilson, VA)",6-6,200,90,110,24,5,VA,PF,2024,tcu,Commit,2
+David Punch,"Harker Heights (Harker Heights, TX)",6-7,205,88,127,26,6,TX,PF,2024,tcu,Commit,3
+Malick Diallo,"Wasatch Academy (Mount Pleasant, UT)",6-10,215,88,172,35,4,UT,C,2024,tcu,Commit,3
+Ashton Simmons,"West Brook (Beaumont, TX)",6-2,190,87,NA,34,14,TX,PG,2024,tcu,Commit,1
+Vasean Allette,NA,6-3,180,89,NA,NA,NA,NA,CG,2024,tcu,Transfer,1
+Trazarien White,NA,6-7,190,94,NA,NA,NA,NA,SF,2024,tcu,Transfer,1
+RJ Jones,NA,6-3,190,90,NA,NA,NA,NA,SG,2024,tcu,Transfer,2
+Brendan Wenzel,NA,6-6,180,88,NA,NA,NA,NA,SG,2024,tcu,Transfer,3
+Noah Reynolds,NA,6-3,195,91,NA,NA,NA,NA,SG,2024,tcu,Transfer,2
+Frankie Collins,NA,6-1,185,91,NA,NA,NA,NA,PG,2024,tcu,Transfer,2
+Xavier Edmonds,"Salt Lake Community College (Salt Lake City, UT)",6-8,220,91,2,1,1,UT,PF,2025,tcu,Commit,2
+Kayden Edwards,"Duncanville (Duncanville, TX)",6-2,165,94,49,9,4,TX,SG,2025,tcu,Commit,1
+Liutauras Lelevicius,NA,6-7,217,89,NA,NA,NA,NA,SF,2025,tcu,Transfer,1
+Tanner Toolson,NA,6-5,200,87,NA,NA,NA,NA,SG,2025,tcu,Transfer,1
+Jayden Pierre,NA,6-2,185,92,NA,NA,NA,NA,PG,2025,tcu,Transfer,1
+Brock Harding,NA,6-0,155,91,NA,NA,NA,NA,PG,2025,tcu,Transfer,2
+Shadell Millinghaus,"Northwest Florida State College (Niceville, FL)",6-3,210,84,28,6,3,FL,SG,2016,texas-tech,Commit,1
+Davide Moretti,"Italy (Italy, ITAL)",6-2,0,90,131,7,1,ITAL,CG,2017,texas-tech,Commit,1
+Josh Webster,"South Plains College (Levelland, TX)",6-4,170,89,16,1,5,TX,PG,2017,texas-tech,Commit,3
+Hyron Edwards,"Trinity Valley C.C. (Athens, TX)",6-1,175,89,25,5,8,TX,CG,2017,texas-tech,Commit,3
+Malik Ondigo,"Putnam Science Academy (Putnam, CT)",6-11,0,89,166,16,3,CT,PF,2017,texas-tech,Commit,3
+Zhaire Smith,"Lakeview Centennial (Garland, TX)",6-5,180,87,222,45,18,TX,SG,2017,texas-tech,Commit,3
+Jarrett Culver,"Coronado (Lubbock, TX)",6-5,170,87,NA,53,23,TX,CG,2017,texas-tech,Commit,3
+Daniel Mading,"St Anthony (Jersey City, NJ)",6-9,175,87,NA,30,12,NJ,SF,2017,texas-tech,Commit,3
+Khavon Moore,"Westside (Macon, GA)",6-8,187,94,64,13,4,GA,SF,2018,texas-tech,Commit,1
+Deshawn Corprew,"South Plains College (Levelland, TX)",6-5,190,91,2,1,2,TX,SF,2018,texas-tech,Commit,1
+Kyler Edwards,"Findlay Prep (Henderson, NV)",6-4,195,89,185,38,5,NV,SG,2018,texas-tech,Commit,1
+Josh Mballa,"Putnam Science Academy (Putnam, CT)",6-8,205,82,NA,80,6,CT,PF,2018,texas-tech,Commit,1
+Jahmi'us Ramsey,"Duncanville (Duncanville, TX)",6-4,195,97,42,7,5,TX,CG,2019,texas-tech,Commit,1
+Terrence Shannon Jr.,"IMG Academy (Bradenton, FL)",6-6,185,91,127,28,14,FL,SF,2019,texas-tech,Commit,1
+Kevin McCullar,"Wagner (San Antonio, TX)",6-6,180,90,135,32,15,TX,SG,2019,texas-tech,Commit,1
+Tyreek Smith,"Trinity Christian School (Cedar Hill, TX)",6-8,205,89,165,25,16,TX,PF,2019,texas-tech,Commit,1
+Clarence Nadolny,"Scotland Campus (Scotland, PA)",6-3,190,88,NA,42,12,PA,CG,2019,texas-tech,Commit,1
+Russel Tchewa,"Putnam Science Academy (Putnam, CT)",7-0,215,87,NA,70,10,CT,C,2019,texas-tech,Commit,1
+Andrei Savrasov,"Russia (Russia, RUSS)",6-9,215,80,NA,94,1,RUSS,PF,2019,texas-tech,Commit,1
+Nimari Burnett,"Prolific Prep (Fort Lauderdale, FL)",6-4,190,97,38,8,8,FL,CG,2020,texas-tech,Commit,1
+Micah Peavy,"Duncanville (Duncanville, TX)",6-7,172,96,66,13,2,TX,SG,2020,texas-tech,Commit,1
+Chibuzo Agbo,"St. Augustine (San Diego, CA)",6-7,215,95,75,16,10,CA,SF,2020,texas-tech,Commit,1
+Vladislav Goldin,"Putnam Science Academy (Putnam, CT)",7-1,220,90,164,28,2,CT,C,2020,texas-tech,Commit,1
+Esahia Nyiwe,"Clarendon (Clarendon, TX)",6-10,210,89,NA,51,13,TX,PF,2020,texas-tech,Commit,1
+Jaylon Tyson,"John Paul II (Plano, TX)",6-6,185,97,36,8,3,TX,SF,2021,texas-tech,Commit,1
+KJ Allen,"East Los Angeles College (Monterey Park, CA)",6-6,225,87,11,4,1,CA,PF,2021,texas-tech,Commit,1
+Elijah Fisher,"Crestwood Prep (Toronto, ON)",6-6,195,95,58,16,2,ON,SG,2022,texas-tech,Commit,1
+Pop Isaacs,"Coronado (Henderson, NV)",6-2,180,94,67,13,1,NV,PG,2022,texas-tech,Commit,1
+Lamar Washington,"Compass Prep (Chandler, AZ)",6-4,210,90,111,14,8,AZ,SG,2022,texas-tech,Commit,2
+Robert Jennings,"Texas Alliance of Christian Athletes (Dallas, TX)",6-7,220,87,227,52,17,TX,PF,2022,texas-tech,Commit,1
+D'Maurian Williams,NA,6-5,195,88,NA,NA,NA,NA,SG,2022,texas-tech,Transfer,2
+Jaylon Tyson,NA,6-6,185,92,NA,NA,NA,NA,SF,2022,texas-tech,Transfer,2
+Kerwin Walton,NA,6-5,205,88,NA,NA,NA,NA,SF,2022,texas-tech,Transfer,2
+Fardaws Aimaq,NA,6-11,245,92,NA,NA,NA,NA,C,2022,texas-tech,Transfer,2
+De'Vion Harmon,NA,6-0,192,90,NA,NA,NA,NA,PG,2022,texas-tech,Transfer,2
+Drew Steffe,"Memorial (Frisco, TX)",6-5,175,88,192,31,18,TX,SG,2023,texas-tech,Commit,1
+Devan Cambridge,NA,6-6,190,89,NA,NA,NA,NA,SF,2023,texas-tech,Transfer,2
+Chance McMillian,NA,6-2,175,89,NA,NA,NA,NA,PG,2023,texas-tech,Transfer,2
+Warren Washington,NA,6-11,210,90,NA,NA,NA,NA,PF,2023,texas-tech,Transfer,1
+Darrion Williams,NA,6-6,210,91,NA,NA,NA,NA,PF,2023,texas-tech,Transfer,2
+KyeRon Lindsay,NA,6-8,205,91,NA,NA,NA,NA,PF,2023,texas-tech,Transfer,2
+Christian Anderson,"Oak Hill Academy (Mouth Of Wilson, VA)",5-11,155,90,113,10,6,VA,PG,2024,texas-tech,Commit,1
+Leon Horner,"Dynamic Prep (Dallas, TX)",6-6,195,86,NA,58,19,TX,SF,2024,texas-tech,Commit,1
+Marial Akuentok,"Fort Erie International Academy (Fort Erie, ON)",6-10,215,88,216,38,16,ON,C,2024,texas-tech,Commit,2
+JT Toppin,NA,6-9,210,95,NA,NA,NA,NA,PF,2024,texas-tech,Transfer,1
+Elijah Hawkins,NA,5-11,160,94,NA,NA,NA,NA,PG,2024,texas-tech,Transfer,1
+Fede Federiko,NA,6-10,220,88,NA,NA,NA,NA,PF,2024,texas-tech,Transfer,2
+Kevin Overton,NA,6-5,185,91,NA,NA,NA,NA,SG,2024,texas-tech,Transfer,1
+Nolan Groves,"Orono Senior (Long Lake, MN)",6-5,200,87,NA,47,3,MN,SG,2025,texas-tech,Commit,1
+Luke Bamgboye,NA,6-10,200,91,NA,NA,NA,NA,C,2025,texas-tech,Transfer,3
+Josiah Moseley,NA,6-6,228,91,NA,NA,NA,NA,PF,2025,texas-tech,Transfer,3
+LeJuan Watts,NA,6-6,233,96,NA,NA,NA,NA,SG,2025,texas-tech,Transfer,1
+Donovan Atwell,NA,6-5,190,92,NA,NA,NA,NA,SG,2025,texas-tech,Transfer,1
+Tyeree Bryan,NA,6-5,210,91,NA,NA,NA,NA,SG,2025,texas-tech,Transfer,3
+Jayce Johnson,"Santa Monica (Santa Monica, CA)",6-11,225,95,51,8,4,CA,C,2016,utah,Commit,1
+Devon Daniels,"Prolific Prep (Fort Lauderdale, FL)",6-4,185,88,212,37,4,FL,SG,2016,utah,Commit,1
+Jojo Zamora,"Yuba College (Marysville, CA)",6-3,170,86,16,4,3,CA,SG,2016,utah,Commit,1
+Tyler Rawson,"Salt Lake Community College (Salt Lake City, UT)",6-10,225,89,12,6,1,UT,PF,2016,utah,Commit,1
+Donnie Tillman,"Findlay Prep (Henderson, NV)",6-7,225,89,136,35,4,NV,PF,2017,utah,Commit,3
+Branden Carlson,"Bingham (South Jordan, UT)",6-9,200,89,153,40,2,UT,PF,2017,utah,Commit,3
+Vante Hendrix,"Birmingham (Van Nuys, CA)",6-5,190,87,NA,54,23,CA,SG,2017,utah,Commit,1
+Jaxon Brenchley,"Mountain Crest (Hyrum, UT)",6-3,180,86,NA,68,4,UT,SG,2017,utah,Commit,1
+Christian Popoola,"Bishop Gorman (Las Vegas, NV)",6-3,180,89,157,8,5,NV,CG,2017,utah,Commit,3
+Timmy Allen,"Red Mountain (Mesa, AZ)",6-6,200,92,101,24,1,AZ,SF,2018,utah,Commit,1
+Both Gach,"Compass Prep (Chandler, AZ)",6-7,190,90,149,37,2,AZ,SG,2018,utah,Commit,1
+Riley Battin,"Oak Park (Oak Park, CA)",6-9,220,89,209,31,20,CA,C,2018,utah,Commit,1
+Lahat Thioune,"Florida Air Academy (Melbourne, FL)",6-11,205,88,NA,55,31,FL,PF,2018,utah,Commit,1
+Naseem Gaskin,"Bishop O'Dowd (Oakland, CA)",6-3,170,85,NA,85,43,CA,SG,2018,utah,Commit,1
+Rylan Jones,"Olympus (Salt Lake City, UT)",6-1,165,93,92,9,2,UT,PG,2019,utah,Commit,1
+Mikael Jantunen,"Helsinki Basketball Academy (Finland, FINL)",6-8,215,89,195,31,1,FINL,PF,2019,utah,Commit,1
+Matthew Van Komen,"Pleasant Grove (Pleasant Grove, UT)",7-4,220,88,234,41,6,UT,C,2019,utah,Commit,1
+Brendan Wenzel,"O'Connor (Helotes, TX)",6-6,180,80,NA,90,33,TX,SG,2019,utah,Commit,1
+Ian Martinez,"JSerra Catholic (San Juan Capistrano, CA)",6-3,170,96,67,10,9,CA,SG,2020,utah,Commit,1
+Pelle Larsson,"Sweden (Sweden, SWED)",6-5,200,91,126,14,1,SWED,SG,2020,utah,Commit,1
+Norbert Thelissen,"Netherlands (Netherlands, NETH)",6-7,190,89,NA,55,1,NETH,SF,2020,utah,Commit,1
+Mason Falslev,"Sky View (Smithfield, UT)",6-3,180,88,NA,53,5,UT,SG,2020,utah,Commit,1
+Lazar Stefanovic,"Serbia (Serbia, SERB)",6-5,176,86,NA,64,1,SERB,SG,2021,utah,Commit,1
+Keba Keita,"Wasatch Academy (Mount Pleasant, UT)",6-8,225,89,165,26,4,UT,C,2022,utah,Commit,1
+Ben Carlson,NA,6-9,220,84,NA,NA,NA,NA,PF,2022,utah,Transfer,1
+Gavin Baxter,NA,6-9,230,86,NA,NA,NA,NA,SF,2022,utah,Transfer,1
+Mike Saunders,NA,6-0,165,88,NA,NA,NA,NA,PG,2022,utah,Transfer,1
+Jake Wahlin,"Timpview (Provo, UT)",6-7,180,89,148,31,3,UT,PF,2023,utah,Commit,1
+Deivon Smith,NA,6-0,176,87,NA,NA,NA,NA,PG,2023,utah,Transfer,2
+Lawson Lovering,NA,7-1,235,87,NA,NA,NA,NA,C,2023,utah,Transfer,2
+Ibrahima Traore,"West Oaks Academy (Orlando, FL)",6-9,225,88,204,37,19,FL,C,2024,utah,Commit,3
+Jaxon Johnson,"Alta (Sandy, UT)",6-8,195,90,112,22,2,UT,PF,2024,utah,Commit,1
+David Katoa,"Utah Prep (Hurricane, UT)",6-4,170,86,NA,43,6,UT,SG,2024,utah,Commit,1
+Mike Sharavjamts,NA,6-8,180,91,NA,NA,NA,NA,SF,2024,utah,Transfer,2
+Ezra Ausar,NA,6-8,247,92,NA,NA,NA,NA,PF,2024,utah,Transfer,1
+Miro Little,NA,6-4,185,91,NA,NA,NA,NA,PG,2024,utah,Transfer,2
+Mason Madsen,NA,6-3,175,88,NA,NA,NA,NA,CG,2024,utah,Transfer,3
+Keanu Dawes,NA,6-9,215,88,NA,NA,NA,NA,PF,2024,utah,Transfer,3
+Kendyl Sanders,"IMG Academy (Bradenton, FL)",6-6,180,87,NA,61,29,FL,SF,2025,utah,Commit,1
+Babacar Faye,NA,6-8,205,89,NA,NA,NA,NA,PF,2025,utah,Transfer,3
+Don McHenry,NA,6-2,168,91,NA,NA,NA,NA,SG,2025,utah,Transfer,1
+Seydou Traore,NA,6-7,220,89,NA,NA,NA,NA,PF,2025,utah,Transfer,3
+Jahki Howard,NA,6-6,185,92,NA,NA,NA,NA,SF,2025,utah,Transfer,2
+Elijah Moore,NA,6-4,176,92,NA,NA,NA,NA,SG,2025,utah,Transfer,2
+James Okonkwo,NA,6-8,240,86,NA,NA,NA,NA,PF,2025,utah,Transfer,1
+Terrence Brown,NA,6-3,175,89,NA,NA,NA,NA,CG,2025,utah,Transfer,3
+Sagaba Konate,"Kennedy Catholic (Hermitage, PA)",6-8,220,89,186,45,6,PA,PF,2016,west-virginia,Commit,2
+Maciej Bender,"Mountain Mission School (Grundy, VA)",6-10,235,89,189,46,14,VA,PF,2016,west-virginia,Commit,2
+Chase Harler,"Central Catholic (Wheeling, WV)",6-3,195,86,NA,54,3,WV,SG,2016,west-virginia,Commit,1
+Brandon Knapper,"Hargrave Military Academy (HS) (Chatham, VA)",6-0,160,89,137,23,9,VA,PG,2017,west-virginia,Commit,2
+D'Angelo Hunter,"Navarro College (Corsicana, TX)",6-7,0,89,13,4,4,TX,SF,2017,west-virginia,Commit,2
+Teddy Allen,"Boys Town (Boys Town, NE)",6-5,215,88,195,42,1,NE,SG,2017,west-virginia,Commit,1
+Wesley Harris,"Lawson State C.C. (Birmingham, AL)",6-8,200,87,55,18,1,AL,SF,2017,west-virginia,Commit,1
+Derek Culver,"Brewster Academy (Wolfeboro, NH)",6-8,205,92,96,13,2,NH,PF,2018,west-virginia,Commit,1
+Jordan McCabe,"Kaukauna (Kaukauna, WI)",5-10,155,89,174,29,3,WI,PG,2018,west-virginia,Commit,3
+Trey Doomes,"University School (Fort Lauderdale, FL)",6-3,185,89,178,37,16,FL,SG,2018,west-virginia,Commit,3
+Andrew Gordon,"Northwest Florida State College (Niceville, FL)",6-10,235,89,7,1,2,FL,PF,2018,west-virginia,Commit,3
+Emmitt Matthews Jr.,"Wilson (Tacoma, WA)",6-6,160,88,NA,54,4,WA,SF,2018,west-virginia,Commit,2
+Jermaine Haley,"Odessa C.C. (Odessa, TX)",6-7,185,88,11,2,6,TX,SG,2018,west-virginia,Commit,2
+Oscar Tshiebwe,"Kennedy Catholic (Hermitage, PA)",6-9,250,98,23,5,1,PA,PF,2019,west-virginia,Commit,1
+Jalen Bridges,"Fairmont (Fairmont, WV)",6-7,180,94,84,20,1,WV,SF,2019,west-virginia,Commit,1
+Miles McBride,"Archbishop Moeller (Cincinnati, OH)",6-1,185,89,216,29,6,OH,PG,2019,west-virginia,Commit,1
+Sean McNeil,"Sinclair Community College (Dayton, OH)",6-4,190,87,19,7,1,OH,SG,2019,west-virginia,Commit,2
+Taz Sherman,"Collin County (Plano, TX)",6-4,185,87,26,12,6,TX,SG,2019,west-virginia,Commit,2
+Isaiah Cottrell,"Huntington Expression Prep (Huntington, WV)",6-9,215,95,80,13,2,WV,PF,2020,west-virginia,Commit,1
+Kedrian Johnson,"Temple College (Temple, TX)",6-4,190,88,17,4,3,TX,PG,2020,west-virginia,Commit,1
+Taj Thweatt,"Wildwood Catholic (Wildwood, NJ)",6-6,195,87,NA,78,16,NJ,SF,2020,west-virginia,Commit,1
+Jamel King,"Bella Vista Prep (Scottsdale, AZ)",6-7,180,89,161,33,8,AZ,SF,2021,west-virginia,Commit,2
+Seth Wilson,"Lorain (Lorain, OH)",6-1,185,89,186,21,4,OH,CG,2021,west-virginia,Commit,2
+Kobe Johnson,"McKinley (Canton, OH)",6-3,190,88,211,31,6,OH,PG,2021,west-virginia,Commit,2
+James Okonkwo,"Beckley Prep Academy (Mount Hope, WV)",6-8,210,88,213,38,1,WV,PF,2021,west-virginia,Commit,2
+Josiah Harris,"Richmond Heights (Cleveland, OH)",6-7,210,87,225,50,5,OH,SF,2022,west-virginia,Commit,2
+Josiah Davis,"Teays Valley Christian School (Scott Depot, WV)",6-1,190,87,242,36,3,WV,PG,2022,west-virginia,Commit,2
+Patrick Suemnick,"Triton College (River Grove, IL)",6-8,230,83,10,2,2,IL,PF,2022,west-virginia,Commit,1
+Tre Mitchell,NA,6-9,220,89,NA,NA,NA,NA,C,2022,west-virginia,Transfer,1
+Emmitt Matthews Jr.,NA,6-7,160,88,NA,NA,NA,NA,SF,2022,west-virginia,Transfer,3
+Joe Toussaint,NA,6-0,165,88,NA,NA,NA,NA,PG,2022,west-virginia,Transfer,3
+Erik Stevenson,NA,6-4,180,88,NA,NA,NA,NA,SG,2022,west-virginia,Transfer,3
+Noah Farrakhan,NA,6-2,170,81,NA,NA,NA,NA,PG,2023,west-virginia,Transfer,1
+Akok Akok,NA,6-10,195,89,NA,NA,NA,NA,PF,2023,west-virginia,Transfer,2
+Quinn Slazinski,NA,6-9,230,84,NA,NA,NA,NA,PF,2023,west-virginia,Transfer,1
+RaeQuan Battle,NA,6-5,175,93,NA,NA,NA,NA,SF,2023,west-virginia,Transfer,2
+Jesse Edwards,NA,6-11,205,97,NA,NA,NA,NA,C,2023,west-virginia,Transfer,1
+Kerr Kriisa,NA,6-2,170,93,NA,NA,NA,NA,PG,2023,west-virginia,Transfer,2
+Omar Silverio,NA,6-3,170,89,NA,NA,NA,NA,PG,2023,west-virginia,Transfer,2
+Jose Perez,NA,6-5,195,90,NA,NA,NA,NA,SG,2023,west-virginia,Transfer,1
+Jonathan Powell,"Centerville (Dayton, OH)",6-5,170,88,164,28,7,OH,SG,2024,west-virginia,Commit,2
+KJ Tenner,"Cordova (Cordova, TN)",6-0,160,70,NA,NA,NA,TN,PG,2024,west-virginia,Commit,1
+Jayden Stone,NA,6-3,175,87,NA,NA,NA,NA,SG,2024,west-virginia,Transfer,1
+Joseph Yesufu,NA,6-0,215,86,NA,NA,NA,NA,PG,2024,west-virginia,Transfer,1
+Javon Small,NA,6-3,195,96,NA,NA,NA,NA,PG,2024,west-virginia,Transfer,1
+Eduardo Andre,NA,6-10,220,88,NA,NA,NA,NA,C,2024,west-virginia,Transfer,2
+Toby Okani,NA,6-7,NA,89,NA,NA,NA,NA,SF,2024,west-virginia,Transfer,2
+Amani Hansberry,NA,6-8,225,90,NA,NA,NA,NA,PF,2024,west-virginia,Transfer,1
+Sencire Harris,NA,6-3,160,89,NA,NA,NA,NA,CG,2024,west-virginia,Transfer,2
+Tucker DeVries,NA,6-7,210,97,NA,NA,NA,NA,SF,2024,west-virginia,Transfer,1
+Jayden Forsythe,"Westtown School (Norristown, PA)",6-5,190,90,119,31,2,PA,SF,2025,west-virginia,Commit,2
+DeAndre Thomas,"Allen (Allen, TX)",6-7,210,86,NA,61,27,TX,PF,2025,west-virginia,Commit,2
+Amir Jenkins,"Worcester Academy (Worcester, MA)",6-2,170,91,84,12,2,MA,PG,2025,west-virginia,Commit,2
+Morris Ugusuk,NA,6-4,160,85,NA,NA,NA,NA,CG,2025,west-virginia,Transfer,1
+Treysen Eaglestaff,NA,6-6,190,94,NA,NA,NA,NA,SG,2025,west-virginia,Transfer,1
+Chance Moore,NA,6-6,210,91,NA,NA,NA,NA,SG,2025,west-virginia,Transfer,2
+Jasper Floyd,NA,6-3,195,87,NA,NA,NA,NA,SG,2025,west-virginia,Transfer,1
+Jackson Fields,NA,6-8,210,86,NA,NA,NA,NA,PF,2025,west-virginia,Transfer,2
+Honor Huff,NA,5-10,168,90,NA,NA,NA,NA,PG,2025,west-virginia,Transfer,2
+Harlan Obioha,NA,7-0,280,88,NA,NA,NA,NA,C,2025,west-virginia,Transfer,1
+Brenen Lorient,NA,6-9,215,93,NA,NA,NA,NA,PF,2025,west-virginia,Transfer,1
