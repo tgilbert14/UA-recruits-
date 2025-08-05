@@ -2,19 +2,12 @@ library(shiny)
 library(shinyjs)
 library(shinydashboard)
 library(tidyverse)
+library(lubridate)
 library(DBI)
 library(RSQLite)
-
-# setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
-# app_path <<- getwd()
-# 
-# # processing data
-# 
-# # recruit pipeline evals data
-# #all_data <- read_csv("data/all_data.csv")
-# 
-# conn <- dbConnect(RSQLite::SQLite(), paste0(app_path,"/data/recruiting.db"))
-# dbGetQuery(conn, "SELECT * FROM recruit_class LIMIT 5")
+library(leaflet)
+library(htmlwidgets)
+library(htmltools)
 
 safe_query <- function(conn, query) {
   tryCatch({

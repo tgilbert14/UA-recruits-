@@ -116,7 +116,7 @@ data_merged$lat[data_merged$Name=="Paul Mbiya"] <- "46.2276"
 data_merged$long[data_merged$Name=="Paul Mbiya"] <- "2.2137"
 
 data_merged$lat[data_merged$Name=="Lat Mayen"] <- "-35.282"
-data_merged$long[data_merged$Name=="Lat Mayen"] <- "149.129°"
+data_merged$long[data_merged$Name=="Lat Mayen"] <- "149.129"
 
 data_merged$lat[data_merged$Name=="Norbert Thelissen"] <- "52.1326"
 data_merged$long[data_merged$Name=="Norbert Thelissen"] <- "5.2913"
