@@ -183,3 +183,5 @@ dbExecute(conn, "CREATE TABLE IF NOT EXISTS [recruit_class_football](
 dbWriteTable(conn, "recruit_class_football", data_merged, append = TRUE, row.names = FALSE)
 
 dbGetQuery(conn, "SELECT * FROM recruit_class_football LIMIT 5")
+
+dbDisconnect(conn)
