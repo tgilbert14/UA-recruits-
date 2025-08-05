@@ -1,0 +1,12 @@
+name: College-Pipeline-Tracker
+title: College-Pipeline-Tracker
+username: t-lama
+account: t-lama
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15148261
+bundleId: 10708665
+url: https://t-lama.shinyapps.io/College-Pipeline-Tracker/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

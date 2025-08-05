@@ -1,13 +1,21 @@
 library(shiny)
 library(shinyjs)
 library(shinydashboard)
-library(dplyr)
-library(lubridate)  # for years()
+library(tidyverse)
+library(lubridate)
+library(DBI)
+library(RSQLite)
 
+setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
+app_path <<- getwd()
+conn <- dbConnect(RSQLite::SQLite(), paste0(app_path,"/data/recruiting.db"))
+
+# dbGetQuery(conn, "SELECT * FROM recruit_class LIMIT 5")
 # Precompute your choices
-team_selections  <- unique(all_data$School)
-sport_selection  <- unique(all_data$sport)
+team_selections <- safe_query(conn, "SELECT DISTINCT School FROM recruit_class")
+sport_selections <- safe_query(conn, "SELECT DISTINCT sport FROM recruit_class")
 
+## UI -->
 ui <- dashboardPage(
   dashboardHeader(title = "Recruiting Pipeline Evaluations"),
   
@@ -28,11 +36,11 @@ ui <- dashboardPage(
   ),
   
   dashboardBody(
-    useShinyjs(),   # <<— only here
+    useShinyjs(),
     
     tabItems(
       
-      # 1) Filters tab
+      # Filters tab
       tabItem(tabName = "filters",
               fluidRow(
                 box(
@@ -43,26 +51,30 @@ ui <- dashboardPage(
                     "year_range", "Select Dates",
                     start     = Sys.Date() - years(1),
                     end       = Sys.Date(),
-                    format    = "yyyy", startview = "year",
-                    separator = " to ", width = "100%"
+                    format    = "yyyy",
+                    startview = "year",
+                    separator = " to ",
+                    width = "100%",
+                    min = "2016-01-01",
+                    max = "2026-12-31"
                   ),
                   
                   actionButton(
                     inputId = "choose_sport",
                     label = tagList("Select Sport", tags$span(style = "margin-left: 10px; color: steelblue;", icon("mouse-pointer"))),
-                    width   = "90%"
+                    width   = "100%"
                   ),
                   br(), br(),
                   
                   selectInput(
                     "team", "Select Team",
-                    choices   = team_selections,
+                    choices   = sort(team_selections$School),
                     selectize = FALSE,
-                    width     = "90%",
+                    width     = "100%",
                     size      = 3
                   ),
                   
-                  actionButton("make_map", "Create Map", width = "90%")
+                  actionButton("make_map", "Create Map", width = "100%")
                 ),
                 
                 box(
@@ -74,9 +86,15 @@ ui <- dashboardPage(
                 box(
                   title = "Data Preview", status = "info",
                   solidHeader = TRUE, width = 8,
-                  verbatimTextOutput("summary_preview")
+                  tableOutput("summary_preview")
                 )
-              ),
+              )
+
+      ),
+      
+      # Summary tab
+      tabItem(tabName = "summary",
+              
               
               fluidRow(
                 box(
@@ -85,33 +103,22 @@ ui <- dashboardPage(
                   plotOutput("gridPlot", height = "800px")
                 )
               )
-      ),
-      
-      # 2) Summary tab
-      tabItem(tabName = "summary",
-              fluidRow(
-                box(
-                  title = "Summary", status = "info",
-                  solidHeader = TRUE, width = 12,
-                  verbatimTextOutput("summary")
-                )
-              )
       )
     )
   )
 )
 
 server <- function(input, output, session) {
-  # 1) hold the one‐time sport choice
+  # hold the one‐time sport choice
   chosenSport <- reactiveVal(NULL)
   
-  # 2) launch modal on button click
+  # launch modal on button click
   observeEvent(input$choose_sport, {
     showModal(modalDialog(
       title = "Pick your sport",
       radioButtons(
         "sport_modal", NULL,
-        choices = sort(sport_selection)
+        choices = sort(sport_selections$sport)
       ),
       footer = tagList(
         modalButton("Cancel"),
@@ -121,7 +128,7 @@ server <- function(input, output, session) {
     ))
   })
   
-  # 3) confirm & lock in choice
+  # confirm & lock in choice
   observeEvent(input$confirm_sport, {
     req(input$sport_modal)
     chosenSport(input$sport_modal)
@@ -129,21 +136,18 @@ server <- function(input, output, session) {
     disable("choose_sport")
   })
   
-  # 4) reactive filtering uses chosenSport()
+  # reactive filtering uses chosenSport()
   filtered_data <- reactive({
     req(chosenSport(), input$team, input$year_range)
     yrs <- as.integer(format(input$year_range, "%Y"))
     
-    all_data %>%
-      filter(
-        sport  == chosenSport(),
-        School == input$team,
-        Year   >= yrs[1],
-        Year   <= yrs[2]
-      )
+    geting_data <- paste0("Select * from recruit_class where sport = '",chosenSport(), 
+    "' AND School = '",input$team,"' AND Year >= ",yrs[1]," AND Year <= ",yrs[2])
+
+    all_data <- safe_query(conn, geting_data)
   })
   
-  # 5) render outputs
+  # render outputs
   output$selections <- renderPrint({
     req(chosenSport())
     cat(
@@ -154,17 +158,27 @@ server <- function(input, output, session) {
     )
   })
   
-  output$summary_preview <- renderPrint({
-    head(filtered_data(), 10)
+  output$summary_preview <- renderTable({
+    filtered_data()
   })
   
   output$gridPlot <- renderPlot({
-    # your plotting code here, using filtered_data()
+    selected_data <- filtered_data()
+    
   })
   
   output$summary <- renderTable({
     filtered_data()
   })
+  
+  # # Close connection when app stops
+  # session$onStop(function() {
+  #   if (dbIsValid(conn)) {
+  #     dbDisconnect(conn)
+  #     cat("Database connection closed.\n")
+  #   }
+  # })
+  
 }
 
 shinyApp(ui, server)
