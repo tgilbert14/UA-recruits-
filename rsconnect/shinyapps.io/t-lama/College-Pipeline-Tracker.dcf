@@ -5,8 +5,9 @@ account: t-lama
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15148261
-bundleId: 10708665
+bundleId: 10727807
 url: https://t-lama.shinyapps.io/College-Pipeline-Tracker/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: docs/az_football_recruit_map_2023_2026.html|www/teamColors.csv|plots|recruit_csvs|scripts

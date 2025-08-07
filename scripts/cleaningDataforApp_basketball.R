@@ -11,6 +11,7 @@ data_cleaned <- all_data %>%
     Location_Clean = paste0(location_name, " High School, ", loc_inside_parens)
   )
 #View(data_cleaned)
+#test <- data_cleaned[data_cleaned$School == "houston",]
 
 # clean and geocode high school locations
 hs_data <- data_cleaned %>%

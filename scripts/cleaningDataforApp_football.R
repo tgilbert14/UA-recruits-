@@ -1,3 +1,5 @@
+library(sp)
+
 # cleaning data for shiny app
 all_data <- read_csv("recruit_csvs/all_recruits_BIG12_football.csv")
 
@@ -17,26 +19,36 @@ hs_data <- data_cleaned %>%
   #distinct(Location_Clean, .keep_all = TRUE) %>%
   mutate(Location_Clean = str_trim(Location_Clean))
 
-# only want commits
-hs_data <- hs_data %>% 
-  filter(Type == "Commit")
+
 
 library(tidygeocoder)
 
+# filter to commits only
+hs_data <- hs_data %>% filter(Type == "Commit")
+
+# # break down into chunks by 300 to help with timeout issues
+# chunks <- split(hs_data, ceiling(seq_along(1:nrow(hs_data)) / 300))
+# 
+# geo_chunks <- lapply(chunks, function(df) {
+#   geocode(df, address = loc_inside_parens, method = "osm", lat = lat, long = long)
+# })
+# # bind all the data
+# hs_geo_all <- bind_rows(geo_chunks)
+# data_cleaned_raw <- hs_geo_all
+
 # have to do in sections..
-hs_data.1 <- hs_data[1:280,]
-hs_data.2 <- hs_data[281:540,]
-hs_data.3 <- hs_data[541:860,]
-hs_data.4 <- hs_data[861:1100,]
-hs_data.5 <- hs_data[1101:1390,]
-hs_data.6 <- hs_data[1391:1600,]
-hs_data.7 <- hs_data[1601:1900,]
-hs_data.6 <- hs_data[1901:2200,]
-hs_data.7 <- hs_data[2201:2500,]
-hs_data.8 <- hs_data[2501:2800,]
-hs_data.9 <- hs_data[2801:3050,]
-hs_data.10 <- hs_data[3051:3300,]
-hs_data.11 <- hs_data[3301:nrow(hs_data),]
+hs_data.1 <- hs_data[1:300,]
+hs_data.2 <- hs_data[301:600,]
+hs_data.3 <- hs_data[601:900,]
+hs_data.4 <- hs_data[901:1200,]
+hs_data.5 <- hs_data[1201:1500,]
+hs_data.6 <- hs_data[1501:1800,]
+hs_data.7 <- hs_data[1801:2100,]
+hs_data.8 <- hs_data[2101:2400,]
+hs_data.9 <- hs_data[2401:2700,]
+hs_data.10 <- hs_data[2701:3000,]
+hs_data.11 <- hs_data[3001:3300,]
+hs_data.12 <- hs_data[3301:nrow(hs_data),]
 
 # use geo code to get lat/long coordinates
 hs_geo_1 <- hs_data.1 %>%
@@ -72,22 +84,27 @@ hs_geo_10 <- hs_data.10 %>%
 hs_geo_11 <- hs_data.11 %>%
   geocode(address = loc_inside_parens, method = "osm", lat = lat, long = long)
 
+hs_geo_12 <- hs_data.12 %>%
+  geocode(address = loc_inside_parens, method = "osm", lat = lat, long = long)
+
 # bind together
-t1 <- rbind(hs_geo_1,hs_geo_2)
-t2 <- rbind(hs_geo_3,hs_geo_4)
-t3 <- rbind(hs_geo_5,hs_geo_6)
-t4 <- rbind(hs_geo_7,hs_geo_8)
-t5 <- rbind(hs_geo_9,hs_geo_10)
+t1 <- rbind(hs_geo_1, hs_geo_2)
+t2 <- rbind(hs_geo_3, hs_geo_4)
+t3 <- rbind(hs_geo_5, hs_geo_6)
+t4 <- rbind(hs_geo_7, hs_geo_8)
+t5 <- rbind(hs_geo_9, hs_geo_10)
+t6 <- rbind(hs_geo_11, hs_geo_12)
 
-t6 <- rbind(t1,hs_geo_11)
-t7 <- rbind(t2,t3)
-t8 <- rbind(t4,t5)
+t1_t2_merged <- rbind(t1, t2)
+t3_t4_merged <- rbind(t3, t4)
+t5_t6_merged <- rbind(t5, t6)
 
-t9 <- rbind(t6,t7)
-t10 <- rbind(t8,t9)
+t1_t2_t3_t4_merged <- rbind(t1_t2_merged, t3_t4_merged)
 
-data_cleaned_raw <- t10
+data_cleaned_raw <- rbind(t1_t2_t3_t4_merged, t5_t6_merged)
+View(data_cleaned_raw)
 
+# cleaning data up -->
 data_cleaned <- data_cleaned_raw %>% mutate(
   School_Clean = paste0("University of ", School)
 )
@@ -131,6 +148,14 @@ no_w <- data_merged %>%
 View(no_w)
 
 data_merged$Weight[data_merged$Name=="Mason Fletcher"] <- 215
+data_merged$Weight[data_merged$Name=="Josh Watts"] <- 200
+
+# check height
+no_h <- data_merged %>% 
+  filter(Height=="0-0")
+View(no_h)
+
+data_merged$Height[data_merged$Name=="Josh Watts"] <- "6-4"
 
 # need locations..
 no_coor <- data_merged %>% 
