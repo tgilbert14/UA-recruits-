@@ -1,8 +1,6 @@
-
-
-setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
-app_path <<- getwd()
-conn <- dbConnect(RSQLite::SQLite(), paste0(app_path,"/data/recruiting.db"))
+# use this for shiny io deployment -->
+db_path <- here("data", "recruiting.db")
+conn <- dbConnect(RSQLite::SQLite(), db_path)
 
 # Pre-compute your choices
 team_selections.1 <- safe_query(conn, "SELECT DISTINCT School FROM recruit_class_football")
@@ -15,7 +13,7 @@ sport_selections <- union(sport_selections.1,sport_selections.2)
 
 ## UI -->
 ui <- dashboardPage(
-  dashboardHeader(title = "Recruiting Pipeline Evaluations"),
+  dashboardHeader(title = "Recruit-Tracker"),
   
   dashboardSidebar(
     width = 120,
@@ -28,8 +26,8 @@ ui <- dashboardPage(
       "))
     ),
     sidebarMenu(id = "tabs",
-      menuItem("Data",    tabName = "filters", icon = icon("filter")),
-      menuItem("Summary", tabName = "summary", icon = icon("chart-bar"))
+      menuItem("Recruits",    tabName = "filters", icon = icon("filter")),
+      menuItem("Pipeline Map", tabName = "summary", icon = icon("chart-bar"))
     )
   ),
   
@@ -42,11 +40,24 @@ ui <- dashboardPage(
       tabItem(tabName = "filters",
               fluidRow(
                 box(
-                  title = "Recruiting Year Range", status = "primary",
-                  solidHeader = TRUE, width = 4,
+                  #title = "Select a sport",
+                  status = "primary",
+                  solidHeader = TRUE,
+                  width = 4,
+                  #background = "blue",
+                  #footer = "test text",
+
+                  #"Select a Sport",
+                  actionButton(
+                    inputId = "choose_sport",
+                    label = "Select Sport",
+                    width   = "100%"
+                  ),
+                  
+                  br(),br(),
                   
                   dateRangeInput(
-                    "year_range", "Select Dates",
+                    "year_range", "Select Class Date Range",
                     start     = Sys.Date() - years(1),
                     end       = Sys.Date(),
                     format    = "yyyy",
@@ -57,32 +68,27 @@ ui <- dashboardPage(
                     max = "2026-12-31"
                   ),
                   
-                  actionButton(
-                    inputId = "choose_sport",
-                    label = tagList("Select Sport", tags$span(style = "margin-left: 10px; color: steelblue;", icon("mouse-pointer"))),
-                    width   = "100%"
-                  ),
-                  br(), br(),
-                  
                   selectInput(
-                    "team", "Select Team",
+                    "team", "Select Big 12 Team",
                     choices   = sort(team_selections$School),
                     selectize = FALSE,
                     width     = "100%",
                     size      = 3
                   ),
                   
-                  actionButton("make_map", "Create Map", width = "100%")
+                  actionButton(inputId = "make_map",
+                               label = tagList("Create Map", tags$span(style = "margin-left: 10px; color: green;", icon("map"))),
+                               width = "100%")
                 ),
                 
                 box(
-                  title = "Selection Info", status = "info",
+                  title = "You selected:", status = "success",
                   solidHeader = TRUE, width = 8,
                   verbatimTextOutput("selections")
                 ),
                 
                 box(
-                  title = "Data Preview", status = "info",
+                  title = "Recruit info:", status = "success",
                   solidHeader = TRUE, width = 8,
                   tableOutput("summary_preview")
                 )
@@ -95,7 +101,7 @@ ui <- dashboardPage(
 
               fluidRow(
                 box(
-                  title = "Pipeline Grid", status = "info",
+                  title = "Click each blue dot to reveal recruit and where they are from!", status = "info",
                   solidHeader = TRUE, width = 12,
                   leafletOutput("gridPlot", height = "800px")
                 )
@@ -152,11 +158,11 @@ server <- function(input, output, session) {
 
     all_data <- safe_query(conn, geting_data)
     
-    all_data <- all_data %>%
-      mutate(
-        Height_in = str_extract(Height, "[0-9]+") %>% as.numeric() * 12 +
-          str_extract(Height, "(?<=-)[0-9.]+") %>% as.numeric()
-        )
+    # all_data <- all_data %>%
+    #   mutate(
+    #     Height_in = str_extract(Height, "[0-9]+") %>% as.numeric() * 12 +
+    #       str_extract(Height, "(?<=-)[0-9.]+") %>% as.numeric()
+    #     )
     
     all_data$lat <- as.numeric(all_data$lat)
     all_data$long <- as.numeric(all_data$long)
@@ -177,7 +183,7 @@ server <- function(input, output, session) {
     cat(
       "Selected recruiting classes from",
       format(input$year_range[1], "%Y"),
-      "to", format(input$year_range[2], "%Y"), "\n",
+      "to", format(input$year_range[2], "%Y"),"\n",
       "for", input$team, chosenSport()
     )
   })
