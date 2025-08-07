@@ -8,6 +8,7 @@ library(RSQLite)
 library(leaflet)
 library(htmlwidgets)
 library(htmltools)
+library(here)
 
 safe_query <- function(conn, query) {
   tryCatch({
